@@ -21,3 +21,5 @@ fun String.md5() = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteA
 fun Any?.print() = println(this)
 
 fun List<Any>.print() = this.forEach{ println(it) }
+
+fun String.isNumber() = this.toLongOrNull() != null
