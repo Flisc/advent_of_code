@@ -61,13 +61,7 @@ class Day_3 {
         startIndex: Int
     ) = !matrix[i][j].isNumber() && startIndex != -1
 
-    private fun checkItem(
-        i: Int,
-        startIndex: Int,
-        endIndex: Int,
-        matrix: ArrayList<ArrayList<String>>,
-        numbers: ArrayList<Long>
-    ) {
+    private fun checkItem(i: Int, startIndex: Int, endIndex: Int, matrix: ArrayList<ArrayList<String>>, numbers: ArrayList<Long>) {
         if (hasValidNeighbor(i, startIndex..endIndex, matrix)) {
             numbers.add(matrix[i].subList(startIndex, endIndex + 1).joinToString("").toLong())
         }
@@ -77,73 +71,47 @@ class Day_3 {
     private fun hasValidNeighbor(row: Int, range: IntRange, matrix: ArrayList<ArrayList<String>>): Boolean {
         val neighbors: ArrayList<String> = ArrayList()
         val item = matrix[row].subList(range.first, range.last + 1)
-        println("neighbors for: ${matrix[row].subList(range.first, range.last + 1)}")
+        println("neighbors for: ${item}")
         if (row > 0) {
-            //row above
-            if (range.first > 0) {
-                if (range.last < matrix[row].size - 1) {
-                    val subList = matrix[row - 1].subList(range.first - 1, range.last + 2)
-                    neighbors.addAll(subList)
-                    println("above: $subList")
-                } else {
-                    val subList = matrix[row - 1].subList(range.first - 1, range.last + 1)
-                    neighbors.addAll(subList)
-                    println("above: $subList")
-                }
-            } else {
-                if (range.last < matrix[row].size - 1) {
-                    val subList = matrix[row - 1].subList(range.first, range.last + 2)
-                    neighbors.addAll(subList)
-                    println("above: $subList")
-                } else {
-                    val subList = matrix[row - 1].subList(range.first, range.last + 1)
-                    neighbors.addAll(subList)
-                    println("above: $subList")
-                }
-            }
+            val adjustedStart = range.first - if (range.first > 0) 1 else 0
+            val adjustedEnd = range.last + if (range.last < matrix[row].size - 1) 2 else 1
+
+            val subList = matrix[row - 1].subList(adjustedStart, adjustedEnd)
+            neighbors.addAll(subList)
+            println("above: $subList")
         }
         if (row < matrix.size - 1) {
-            //row below
-            if (range.first > 0) {
-                if (range.last < matrix[row].size - 1) {
-                    val subList = matrix[row + 1].subList(range.first - 1, range.last + 2)
-                    neighbors.addAll(subList)
-                    println("below: $subList")
-                } else {
-                    val subList = matrix[row + 1].subList(range.first - 1, range.last + 1)
-                    neighbors.addAll(subList)
-                    println("below: $subList")
-                }
+            val adjustedStart = range.first - if (range.first > 0) 1 else 0
+            val adjustedEnd = range.last + if (range.last < matrix[row].size - 1) 2 else 1
 
-            } else if (range.first == 0) {
-                if (range.last < matrix[row].size - 1) {
-                    val subList = matrix[row + 1].subList(range.first, range.last + 2)
-                    neighbors.addAll(subList)
-                    println("below: $subList")
-                } else {
-                    val subList = matrix[row + 1].subList(range.first, range.last + 1)
-                    neighbors.addAll(subList)
-                    println("below: $subList")
-                }
-
-            }
-        }
-
-        if (range.first > 0) {
-            //left item
-            val subList = matrix[row].subList(range.first - 1, range.first)
+            val subList = matrix[row + 1].subList(adjustedStart, adjustedEnd)
             neighbors.addAll(subList)
-            println("left: $subList")
+            println("below: $subList")
         }
 
+        checkLeftNeighbor(range, matrix, row, neighbors)
+        checkRightNeighbor(range, matrix, row, neighbors)
+
+        return neighbors.any { !it.equals(".") }
+    }
+
+    private fun checkRightNeighbor(
+        range: IntRange, matrix: ArrayList<ArrayList<String>>, row: Int, neighbors: ArrayList<String>) {
         if (range.last < matrix[row].size - 1) {
             //right item
             val subList = matrix[row].subList(range.last + 1, range.last + 2)
             neighbors.addAll(subList)
             println("right: $subList")
         }
+    }
 
-        return neighbors.any { !it.equals(".") }
+    private fun checkLeftNeighbor(range: IntRange, matrix: ArrayList<ArrayList<String>>, row: Int, neighbors: ArrayList<String>) {
+        if (range.first > 0) {
+            //left item
+            val subList = matrix[row].subList(range.first - 1, range.first)
+            neighbors.addAll(subList)
+            println("left: $subList")
+        }
     }
 
     private fun fillMatrix(lines: List<String>, matrix: ArrayList<ArrayList<String>>) {
