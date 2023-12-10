@@ -23,3 +23,4 @@ fun Any?.print() = println(this)
 fun List<Any>.print() = this.forEach{ println(it) }
 
 fun String.isNumber() = this.toLongOrNull() != null
+
