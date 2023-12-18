@@ -39,34 +39,31 @@ class Day_4 {
         return cardPoints1
     }
 
-    fun part2(lines: List<String>): Long {
-        var sum: Long = 0
-        var cardsById: MutableMap<String, Card> = mutableMapOf()
-        var copies: MutableList<Card> = mutableListOf()
-        for (i in 0..lines.size - 1) {
-            val card = cardPointsToMatchers(lines[i])
-            cardsById.put(card.game_id, card)
-            if (card.points >= 1) {
-                if (card.copies > 0) {
-                    for (j in i + 1..i + 1 + card.copies - 1) {
-                        copies.add(cardPointsToMatchers(lines[j]))
+    fun part2(lines: List<String>): Any? {
+        return lines.map { this.cardPointsToMatchers(it) }
+            .map { it to it.copies }
+            .let { pairs ->
+                val coundByCard = MutableList(pairs.size) { 1 }
+                pairs.mapIndexed { index, pair ->
+                    (1..pair.second).forEach {
+                        coundByCard[index + it] += coundByCard[index]
                     }
                 }
+                coundByCard
             }
-        }
-        return sum
+            .sum()
     }
 
     private fun cardPointsToMatchers(line: String): Card {
         val game = line.split(": ")
-        val game_id = game[0].split(" ")[1]
+        val game_id = game[0].trim().split(" ").filter{ it.isNotBlank() }[1]
         val numbers = game[1].split(" | ")
         val winners = numbers[0].split(" ").filter { it.isNotBlank() }
         val values = numbers[1].split(" ").filter { it.isNotBlank() }
         var cardPoints: Double = 0.00
         val matchers = winners.intersect(values)
         cardPoints = pow(2.00, matchers.size - 1.00)
-        return Card(game_id, cardPoints.toLong(), matchers.size)
+        return Card(game_id.toInt(), cardPoints.toLong(), matchers.size)
     }
 
     private fun calculatePointsOnSubList(lines: List<String>): Long {
@@ -89,7 +86,7 @@ class Day_4 {
 }
 
 data class Card(
-    val game_id:String,
+    val game_id: Int,
     val points: Long,
     val copies: Int
 )
@@ -100,8 +97,6 @@ fun main() {
     val example = readInput("example", runner.dayNumber)
 
     check(runner.part1(example) == 13L)
-//    runner.part1(puzzle).print()
     runner.part2(example).print()
-//    check(runner.part2(example) == 30L)
-
+    runner.part2(puzzle).print()
 }
