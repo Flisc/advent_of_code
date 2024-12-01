@@ -1,84 +1,61 @@
-package day_1
+package `2024`.day_1
 
-import print
+import Util.Companion.prettyPrint
 import readInput
-import java.util.ArrayList
+import kotlin.math.abs
 
-
-val digitsByWord = mapOf(
-    "one" to 1,
-    "two" to 2,
-    "three" to 3,
-    "four" to 4,
-    "five" to 5,
-    "six" to 6,
-    "seven" to 7,
-    "eight" to 8,
-    "nine" to 9
-)
 
 fun main() {
-    fun part1(input: List<String>): Int {
-        var totalCalibration: Long = 0
+    fun part1(input: List<String>): Long {
+        // Start time: 01.12.2024 12:15
+        val left = mutableListOf<String>()
+        val right = mutableListOf<String>()
         input.forEach {
-            totalCalibration = totalCalibration.plus(calculateLineFromDigits(it)!!)
+            val numbers = it.split("\\s+".toRegex())
+            left.add(numbers[0])
+            right.add(numbers[1])
         }
-        print("calibration: ${totalCalibration}")
-        return totalCalibration.toInt()
-    }
-
-    fun part2(input: List<String>) {
-        input.forEach { println(searchForWords(it)) }
-    }
-
-
-    val testInput = readInput("example", "day_1")
-    part1(testInput)
-
-}
-fun calculateLineFromDigits(line: String): Long? {
-    var numbers = ArrayList<String>()
-    println("\n line: " + line)
-    for (i in 0..line.length - 1) {
-        if (line[i].isDigit()) {
-            numbers.add(line[i].toString())
+        left.sort()
+        right.sort()
+        var sum = 0L
+        for ((index, value) in left.withIndex()) {
+            sum += abs(value.toLong() - right[index].toLong())
         }
+        // Finish time: 01.12.2024 12:50, Duration = 35 min
+        return sum
     }
-    var totalCalibration = (numbers[0] + numbers[numbers.size - 1]).toLongOrNull()
-    println("line calibration: " + totalCalibration)
-    return totalCalibration
-}
 
-private fun searchForWords(line: String): Any? {
-    var numbers = ArrayList<String>()
-    var i: Int = 0
-    println("line: ${line}")
-    while (i < line.length) {
-        if(line[i].isDigit()){
-            numbers.add(line[i].toString())
-            i++
-        } else {
-            var defaultKeyLength = line.substring(i, i+2)
-            if (digitsByWord.containsKey(defaultKeyLength)) {
-                numbers.add(digitsByWord.get(defaultKeyLength).toString())
-                i += defaultKeyLength.length
+    fun part2(input: List<String>): Long {
+        val left = mutableListOf<String>()
+        val right = mutableMapOf<String, Int>()
+        input.forEach {
+            val numbers = it.split("\\s+".toRegex())
+            left.add(numbers[0])
+            var item = right.get(numbers[1])
+            if (item == null) {
+                right.set(numbers[1], 1)
             } else {
-                var reset = false
-                for(j in i + defaultKeyLength.length..line.length - 1 ) {
-                    var key = line.substring(line.indexOf(defaultKeyLength), j + 1)
-                    if (digitsByWord.containsKey(key)) {
-                        numbers.add(digitsByWord.get(key).toString())
-                        i += key.length
-                    }
-                    if(key.length == 5) {
-                        i++
-                        reset = true
-                        break
-                    }
-                }
-                if(!reset) i++
+                right.set(numbers[1], item!! + 1)
             }
         }
+        var sum = 0L
+        left.forEach {
+            sum += it.toLong() * right.getOrDefault(it, 0).toLong()
+        }
+        return sum
     }
-    return numbers[0].toString().plus(numbers[numbers.size-1].toString())
+
+//    val testInput = readInput("example", "day_1")
+//    part1(testInput).prettyPrint("example")
+
+//    val part1 = readInput("puzzle", "day_1")
+//    part1(part1).prettyPrint("part1")
+
+    val part2 = readInput("example", "day_1")
+    part2(part2).prettyPrint("part2")
+
+    val part2p = readInput("puzzle", "day_1")
+    part2(part2p).prettyPrint("part2")
+
 }
+
