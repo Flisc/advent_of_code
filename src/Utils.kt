@@ -1,12 +1,22 @@
+import com.fasterxml.jackson.databind.ObjectMapper
 import java.math.BigInteger
 import java.security.MessageDigest
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 
+public class Util {
+    companion object {
+        val objectMapper = ObjectMapper()
+        public fun Any.prettyPrint(header: String? = "") {
+            println("\n\n *********************** $header **************************")
+            println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(this))
+        }
+    }
+}
 /**
  * Reads lines from the given input txt file.
  */
-fun readInput(name: String, day: String) = Path("src/$day/$name.txt").readLines()
+fun readInput(name: String, day: String, year: String? = "2024") = Path("src/$year/$day/$name.txt").readLines()
 
 /**
  * Converts string to md5 hash.
