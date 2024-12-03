@@ -34,3 +34,5 @@ fun List<Any>.print() = this.forEach{ println(it) }
 
 fun String.isNumber() = this.toLongOrNull() != null
 
+fun String.is3DigitNumber() = this.length <= 3 && this.toLongOrNull() != null
+
