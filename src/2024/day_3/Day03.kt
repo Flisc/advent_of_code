@@ -38,31 +38,31 @@ fun main() {
         input.forEach { line ->
             var idx = 0
             var doEnabled = true
-            var dont = false
-            var tempLine = line.slice(IntRange(idx, line.length-1))
             while (idx < line.length) {
-                if(doEnabled) {
-                    val activeSegment = tempLine.substringBefore("don't()")
-                    sum += calculateMulForPart(activeSegment, regex)
-                    idx += activeSegment.length + "don't()".length
-                    tempLine = line.slice(IntRange(idx, line.length-1))
-                    doEnabled = false
-                    dont = true
-                    println("current idx: $idx , sum = $sum \n activeSegment = $activeSegment")
-                } else {
-                    if(dont && tempLine.contains("do()")) {
-                        val inActiveSegment = tempLine.substringBefore("do()")
-                        idx += inActiveSegment.length + "do()".length
-                        tempLine = line.slice(IntRange(idx, line.length-1))
-                        doEnabled = true
-                        dont = false
+                if (doEnabled) {
+                    if (line.substring(idx).contains("don't()")) {
+                        val activeSegment = line.substring(idx, line.indexOf("don't()", idx))
+                        sum += calculateMulForPart(activeSegment, regex)
+                        idx = line.indexOf("don't()", idx) + "don't()".length
                     } else {
-                        println("missing do")
-                        idx++
+                        // Process the remaining string if no "don't()" is found
+                        val activeSegment = line.substring(idx)
+                        sum += calculateMulForPart(activeSegment, regex)
+                        break
+                    }
+                    doEnabled = false
+                } else {
+                    if (line.substring(idx).contains("do()")) {
+                        idx = line.indexOf("do()", idx) + "do()".length
+                        doEnabled = true
+                    } else {
+                        // No more "do()" found; exit loop
+                        break
                     }
                 }
             }
         }
+
 
         return sum
     }
