@@ -1,4 +1,4 @@
-package `2024`.day_3
+package `2024`.day_4
 
 import Util.Companion.prettyPrint
 import readInput
