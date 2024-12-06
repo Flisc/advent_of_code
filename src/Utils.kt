@@ -36,3 +36,10 @@ fun String.isNumber() = this.toLongOrNull() != null
 
 fun String.is3DigitNumber() = this.length <= 3 && this.toLongOrNull() != null
 
+fun List<List<Any>>.printMatrix() {
+    for (row in this) {
+        println(row.joinToString(" "))
+    }
+    println()
+}
+
