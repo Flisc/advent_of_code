@@ -43,3 +43,22 @@ fun List<List<Any>>.printMatrix() {
     println()
 }
 
+fun List<String>.searchAvailableRangeUntil(size: Int, limitIndex: Int): Pair<Int, Int>  {
+    var start = 0
+    var end = 0
+    for(i in 0 .. limitIndex) {
+        if(this[i] == "." && start == 0) {
+            start = i
+        }
+        if(this[i] == "." && this[i+1] != ".") {
+            end = i
+            if(end-start >= size) {
+                return Pair(start, end)
+            }
+        }
+    }
+    return Pair(start, end)
+}
+
+
+
