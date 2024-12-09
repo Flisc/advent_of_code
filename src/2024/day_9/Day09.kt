@@ -1,7 +1,9 @@
 package `2024`.day_5
 
 import Util.Companion.prettyPrint
+import isNumber
 import readInput
+import searchAvailableRangeUntil
 
 enum class BlockType() {
     empty,
@@ -22,7 +24,7 @@ fun main() {
                         diskMap.add(Block(BlockType.file, c.toString().toInt(), lastIndex))
                         lastIndex++
                     } else {
-                        diskMap.add(Block(BlockType.empty, c.toString().toInt(), lastIndex))
+                        diskMap.add(Block(BlockType.empty, c.toString().toInt(), index))
                     }
                 }
         }
@@ -89,20 +91,40 @@ fun main() {
         }
 
         var end = blocks.lastIndex
-        var start = blocks.lastIndex  - diskMap.last().value
-        while (blocks.contains(".")) {
+        var start = end
+        var loopLimit = 1000
+        do {
             for(i in diskMap.lastIndex downTo 0) {
-                var item = diskMap[i]
-                if(item.type == BlockType.file) {
-                    end -= item.value
-                    start = end - item.value
-                }
-            }
-        }
 
-        blocks.joinToString(" ").prettyPrint()
+                var item = diskMap[i]
+                start = end - item.value + 1
+//                blocks.subList(start, end+1)
+                if(item.type == BlockType.file) {
+                    blocks.joinToString(" ").prettyPrint()
+                    var availableRange = blocks.searchAvailableRangeUntil(item.value, start)
+                    if(availableRange != null) {
+                        for(j in availableRange.first .. availableRange.second) {
+                            //replace .. with values
+                            blocks[j] = item.originalIndex.toString()
+                        }
+                        for(j in start..end) {
+                            blocks[j] = ""
+                        }
+                    }
+//                    end = start-1
+                }
+                end = start-1
+//                if(item.type == BlockType.empty) {
+//                    println()
+//                }
+
+            }
+//            blocks.joinToString(" ").prettyPrint()
+            loopLimit--
+        } while (blocks.contains(".") && end > start && loopLimit > 0)
+
         blocks.mapIndexed { index, s ->
-            if(s.isNotEmpty()) {
+            if(s.isNotEmpty() && s.isNumber()) {
                 sum += index * s.toLong()
             }
         }
@@ -117,11 +139,11 @@ fun main() {
 //    val part1 = readInput("puzzle", "day_9")
 //    part1(part1).prettyPrint("part1")
 //
-    val part2 = readInput("example", "day_9")
-    part2(part2).prettyPrint("part2")
+//    val part2 = readInput("example", "day_9")
+//    part2(part2).prettyPrint("part2")
 ////
-//    val part2p = readInput("puzzle", "day_5")
-//    part2(part2p).prettyPrint("part2")
+    val part2p = readInput("puzzle", "day_9")
+    part2(part2p).prettyPrint("part2")
 
 }
 
