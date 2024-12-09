@@ -8,7 +8,7 @@ public class Util {
     companion object {
         val objectMapper = ObjectMapper()
         public fun Any.prettyPrint(header: String? = "") {
-            println("\n\n *********************** $header **************************")
+//            println("\n\n *********************** $header **************************")
             println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(this))
         }
     }
@@ -43,21 +43,14 @@ fun List<List<Any>>.printMatrix() {
     println()
 }
 
-fun List<String>.searchAvailableRangeUntil(size: Int, limitIndex: Int): Pair<Int, Int>  {
-    var start = 0
-    var end = 0
-    for(i in 0 .. limitIndex) {
-        if(this[i] == "." && start == 0) {
-            start = i
-        }
-        if(this[i] == "." && this[i+1] != ".") {
-            end = i
-            if(end-start >= size) {
-                return Pair(start, end)
-            }
+fun List<String>.searchAvailableRangeUntil(size: Int, limitIndex: Int): Pair<Int, Int>?  {
+    if (size <= 0 || this.isEmpty()) return null
+    for (i in 0..(limitIndex+1) - size) {
+        if (this.subList(i, i + size).all { it == "." }) {
+            return i to (i + size - 1)
         }
     }
-    return Pair(start, end)
+    return null
 }
 
 
