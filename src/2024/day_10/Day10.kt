@@ -107,7 +107,7 @@ fun main() {
             .prettyPrint("score")
 
         allRoutes.map { it.first() to it.last() }
-            .toSet().size
+            .size
             .prettyPrint("score v2")
 
         return sum
@@ -121,11 +121,11 @@ fun main() {
         return sum
     }
 
-    val testInput = readInput("example", dayNumber)
-    part1(testInput).prettyPrint("example")
+//    val testInput = readInput("example", dayNumber)
+//    part1(testInput).prettyPrint("example")
 
-//    val part1 = readInput("puzzle", dayNumber)
-//    part1(part1).prettyPrint("part1")
+    val part1 = readInput("puzzle", dayNumber)
+    part1(part1).prettyPrint("part1")
 
 
 //    val part2 = readInput("example", "day_9")
