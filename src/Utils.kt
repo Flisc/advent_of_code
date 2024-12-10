@@ -8,7 +8,7 @@ public class Util {
     companion object {
         val objectMapper = ObjectMapper()
         public fun Any.prettyPrint(header: String? = "") {
-//            println("\n\n *********************** $header **************************")
+            println("\n\n *********************** $header **************************")
             println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(this))
         }
     }
