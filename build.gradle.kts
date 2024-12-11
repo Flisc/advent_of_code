@@ -16,4 +16,5 @@ tasks {
 
 dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.0.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 }
