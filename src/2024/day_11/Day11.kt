@@ -1,7 +1,6 @@
 package `2024`.day_11
 
 import Util.Companion.prettyPrint
-import printMatrix
 import readInput
 
 
@@ -40,22 +39,31 @@ fun main() {
         }
     }
 
-    fun Set<Pair<Pair<Int, Int>, Pair<Int, Int>>>.printRoutePoints() {
-        this.forEachIndexed { index, pairs ->
-            val sb = StringBuilder()
-            sb.append(" [${pairs.first}, ${pairs.second}] ")
-            println(sb.toString())
-            sb.clear()
-        }
-    }
-
-
 
     fun part1(input: List<String>): Long {
         resetData()
         mapInput(input)
+        var i = 0
+        var blinks = 75
+        var actualSize = stones.size
+        for (blink in 1..blinks) {
+            while( i < stones.size) {
+                val rule = stones[i].applyRule()
+                stones[i] = rule.first()
+                if(rule.size > 1) {
+                    stones.add(i+1, rule.last())
+                    i+=2
+                    actualSize++
+                } else {
+                    i++
+                }
+            }
+            i=0
+            stones.size.prettyPrint("after blink: $blink")
+        }
 
-        return res
+
+        return stones.size.toLong()
     }
 
     fun part2(input: List<String>): Long {
@@ -66,11 +74,11 @@ fun main() {
         return res
     }
 
-    val testInput = readInput("example", dayNumber)
-    part1(testInput).prettyPrint("example")
+//    val testInput = readInput("example", dayNumber)
+//    part1(testInput).prettyPrint("example")
 
-//    val part1 = readInput("puzzle", dayNumber)
-//    part1(part1).prettyPrint("part1")
+    val part1 = readInput("puzzle", dayNumber)
+    part1(part1).prettyPrint("part1")
 
 
 //    val part2 = readInput("example", "day_9")
