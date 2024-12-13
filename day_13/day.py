@@ -3,14 +3,28 @@ import pprint
 
 from day_13.Models import Machine
 
-PRINT_ENABLED = False
-# file_name = 'example.txt'
-file_name = 'input.txt'
+PRINT_ENABLED = True
+file_name = 'example.txt'
+# file_name = 'input.txt'
 
 data = []
 
 def solve_ecuation(xt, yt, ax, ay, bx, by):
-    # TODO: add formula
+    """
+    Button A: X+94, Y+34
+    Button B: X+22, Y+67
+    Prize: X=8400, Y=5400
+        V
+    xt (8400) = a * (X + 94) + b * (X + 22)
+    xt (5400) = a * (Y + 34) + b * (Y + 67)
+        V
+    a = (xt - bx * b) / ax
+        V
+    ay * (xt - bx * b) / ax + ay * b = yt
+        V
+    ((ay * xt) / ax)*b - ((ay * bx) / ax)*b  + ay = yt
+
+    """
     var_b = (ay * xt) / ax
     var2_b = (ay * bx) / ax
     combined = by - var2_b
@@ -18,8 +32,8 @@ def solve_ecuation(xt, yt, ax, ay, bx, by):
     b = (yt - var_b) / combined
     a = (xt - bx * b) / ax
 
-    if PRINT_ENABLED:
-        print("a=", int(a), "b=", int(b))
+    # if PRINT_ENABLED:
+    #     print("a=", int(a), "b=", int(b))
 
     return (round(a, 2), round(b, 2))
 
@@ -34,8 +48,8 @@ def create_machine(data):
     bx = int(button_b_line.split(': ')[1].split(', ')[0][2:])
     by = int(button_b_line.split(', ')[1][2:])
 
-    xt = int(prize_line.split(': ')[1].split(', ')[0][2:])
-    yt = int(prize_line.split(', ')[1][2:])
+    xt =  int('10000000000000'+prize_line.split(': ')[1].split(', ')[0][2:])
+    yt = int('10000000000000'+prize_line.split(', ')[1][2:])
 
     return Machine(ax, ay, bx, by, xt, yt)
 
@@ -73,7 +87,7 @@ for m in data:
                             m.buttons[1].dx, m.buttons[1].dy)
     if can_be_int(a) and can_be_int(b):
         m.tokens = int(3 * a + b)
-        print(a, b, m.tokens)
+        print(data.index(m), a,"type: ", type(a),  b, m.tokens)
 
 
 res = sum([ m.tokens for m in data if m.tokens is not ( None or 0 ) ])

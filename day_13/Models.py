@@ -17,7 +17,5 @@ class Machine:
         self.xt = xt
         self.yt = yt
     def __repr__(self):
-        return (
-            f"Machine(buttons={self.buttons}, "
-            f"prize=(xt={self.xt}, yt={self.yt}))"
-        )
+        return (f"Machine(buttons={self.buttons}, "
+                f"prize=(xt={self.xt}, yt={self.yt}))")
