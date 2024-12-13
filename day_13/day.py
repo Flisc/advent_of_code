@@ -1,3 +1,4 @@
+import math
 from collections import defaultdict
 import pprint
 
@@ -35,7 +36,7 @@ def solve_ecuation(xt, yt, ax, ay, bx, by):
     # if PRINT_ENABLED:
     #     print("a=", int(a), "b=", int(b))
 
-    return (round(a, 2), round(b, 2))
+    return (a, b)
 
 def create_machine(data):
     button_a_line = data[0]
@@ -85,9 +86,13 @@ if PRINT_ENABLED:
 for m in data:
     (a, b) = solve_ecuation(m.xt, m.yt, m.buttons[0].dx, m.buttons[0].dy,
                             m.buttons[1].dx, m.buttons[1].dy)
-    if can_be_int(a) and can_be_int(b):
-        m.tokens = int(3 * a + b)
-        print(data.index(m), a,"type: ", type(a),  b, m.tokens)
+    new_a = math.floor(a)
+    new_b = math.floor(b)
+    print(a, b, new_a, new_b)
+    m.tokens = int(3 * new_a + new_b)
+    # if can_be_int(a) and can_be_int(b):
+    #     m.tokens = int(3 * a + b)
+    #     print(data.index(m), a,"type: ", type(a),  b, m.tokens)
 
 
 res = sum([ m.tokens for m in data if m.tokens is not ( None or 0 ) ])
