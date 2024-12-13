@@ -3,9 +3,9 @@ import pprint
 
 from day_13.Models import Machine
 
-PRINT_ENABLED = True
-file_name = 'example.txt'
-# file_name = 'input.txt'
+PRINT_ENABLED = False
+# file_name = 'example.txt'
+file_name = 'input.txt'
 
 data = []
 
@@ -18,8 +18,8 @@ def solve_ecuation(xt, yt, ax, ay, bx, by):
     b = (yt - var_b) / combined
     a = (xt - bx * b) / ax
 
-    # if PRINT_ENABLED:
-        # print("a=", int(a), "b=", int(b))
+    if PRINT_ENABLED:
+        print("a=", int(a), "b=", int(b))
 
     return (round(a, 2), round(b, 2))
 
@@ -78,9 +78,3 @@ for m in data:
 
 res = sum([ m.tokens for m in data if m.tokens is not ( None or 0 ) ])
 print(res)
-
-
-# solve_ecuation(8400, 5400, 94, 34 , 22 , 67)
-
-
-
