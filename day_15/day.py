@@ -131,3 +131,11 @@ if PRINT_ENABLED:
     print("moves")
     pprint.pprint(len(moves))
 
+for i in range(len(data)):
+    for j in range(len(data)):
+        if data[i][j] == 'O':
+            res += 100*i + j
+
+
+print("res: ", res)
+
