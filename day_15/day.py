@@ -113,23 +113,28 @@ def go(row, col, direction):
              current_point[1] += 1
              data[current_point[0]][current_point[1]] = "@"
 
+def search_robot():
+    for i in range(len(data)):
+        for j in range(len(data)):
+            if data[i][j] == '@':
+                print(f"found at {i}, {j}")
+                current_point = [i, j]
 
-for i in range(len(data)):
-    for j in range(len(data)):
-        if data[i][j] == '@':
-            print(f"found at {i}, {j}")
-            current_point = [i, j]
+def start_robot():
+    for move in moves:
+        print(f"GO {move}")
+        go(current_point[0], current_point[1], move)
+        print_matrix()
 
-for move in moves:
-    print(f"GO {move}")
-    go(current_point[0], current_point[1], move)
-    print_matrix()
+search_robot()
+start_robot()
 
 if PRINT_ENABLED:
     print("\n\n")
     # pprint.pprint(data)
     print("moves")
     pprint.pprint(len(moves))
+
 
 for i in range(len(data)):
     for j in range(len(data)):
