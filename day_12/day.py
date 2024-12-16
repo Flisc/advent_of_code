@@ -10,6 +10,7 @@ file_name = 'example.txt'
 data = []
 plants_dict = defaultdict(list)
 perimeter_dict = defaultdict(int)
+res = 0
 
 def in_bounds(x, y):
     return (x >= 0 and x < len(data) and
