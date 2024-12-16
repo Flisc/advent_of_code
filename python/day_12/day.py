@@ -1,10 +1,10 @@
 from collections import defaultdict
 import pprint
 
-from day_12.Models import Direction
+from python.day_12.Models import Direction
 
 PRINT_ENABLED = True
-file_name = 'example.txt'
+file_name = '../../../python/day_12/example.txt'
 # file_name = 'input.txt'
 
 data = []

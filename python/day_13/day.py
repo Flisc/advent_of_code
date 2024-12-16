@@ -1,11 +1,10 @@
 import math
-from collections import defaultdict
 import pprint
 
-from day_13.Models import Machine
+from python.day_13.Models import Machine
 
 PRINT_ENABLED = True
-file_name = 'example.txt'
+file_name = '../day_12/example.txt'
 # file_name = 'input.txt'
 
 data = []
@@ -97,3 +96,12 @@ for m in data:
 
 res = sum([ m.tokens for m in data if m.tokens is not ( None or 0 ) ])
 print(res)
+
+"""
+305668706952558509 > s
+3947645189569987905 > s
+94229604746081556 > s
+94229604746081555 != s
+94229604746081555 !=
+94229604746081548 !=
+"""

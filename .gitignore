@@ -1,6 +1,5 @@
 /.gradle/*
 /build/*
 /.idea/*
-/src/2024/*
 
-/day_15/notes.txt
+/src/2024/day_15/notes.txt
