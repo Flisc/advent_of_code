@@ -43,7 +43,6 @@ def calculate_area_and_perimeter(garden_map):
     return results
 
 
-# Example Input
 garden = [
     ['A', 'A', 'A', 'A'],
     ['B', 'B', 'C', 'D'],
@@ -54,7 +53,7 @@ garden = [
 # Calculate
 regions = calculate_area_and_perimeter(garden)
 res = 0
-# Output Results
+
 for plant_type, area, perimeter in regions:
     print(f"Plant: {plant_type}, Area: {area}, Perimeter: {perimeter}")
     res += area*perimeter
