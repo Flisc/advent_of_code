@@ -16,14 +16,8 @@ class Day {
             if (direction == 'R') {
                 dial.rotateRightBy(line.substring(1).toInt())
             }
+            println()
         }
-
-//        dial.rotateLeftBy(68)
-//        dial.rotateLeftBy(30)
-//        dial.rotateRightBy(48)
-//        dial.rotateLeftBy(5)
-//        dial.rotateRightBy(60)
-//        dial.rotateLeftBy(55)
         return lines.size.toLong()
     }
 
@@ -34,10 +28,8 @@ class Day {
 
 fun main() {
     val runner = Day()
-//    val example = readInput("example", runner.dayNumber, "2025")
-    val example = readInput("puzzle", runner.dayNumber, "2025")
-//    val puzzle = readInput("puzzle", runner.dayNumber)
-//    check(runner.part1(puzzle) == 123L)
+    val example = readInput("example", runner.dayNumber, "2025")
+//    val example = readInput("puzzle", runner.dayNumber, "2025")
     runner.part1(example)
 }
 
@@ -50,17 +42,22 @@ data class Dial(var curr: Int) {
         println("curr=$curr -> rotateLeftBy: $newValue")
         if (newValue > 100) {
             val shift = newValue % 100
+            this.rotationsTo0 += newValue / 100
             this.curr -= shift
             if (this.curr < lefLimit) {
                 this.curr = this.rightLimit - abs(this.curr + 1)
+                this.rotationsTo0++
             }
         } else if (newValue % 100 == 0) {
             println("curr=$curr -> rotateLeftBy: $newValue, same position")
+            this.rotationsTo0 += newValue/100
         }
         if (newValue < 100) {
+            val countZero = this.curr != 0
             this.curr -= newValue
             if (this.curr < lefLimit) {
                 this.curr = this.rightLimit - abs(this.curr + 1)
+                if (countZero) this.rotationsTo0++
             }
         }
 
@@ -73,20 +70,24 @@ data class Dial(var curr: Int) {
         if (newValue > 100) {
             val shift = newValue % 100
             this.curr += shift
+            this.rotationsTo0 += newValue / 100
             if (this.curr > rightLimit) {
                 this.curr = this.lefLimit + (this.curr - this.rightLimit) - 1
             }
         } else if (newValue % 100 == 0) {
             println("curr=$curr -> rotateLeftBy: $newValue, same position")
+            this.rotationsTo0 += newValue/100
         }
         if (newValue < 100) {
+            val countZero = this.curr != 0
             this.curr += newValue
             if (this.curr > rightLimit) {
                 this.curr = this.lefLimit + (this.curr - this.rightLimit) - 1
+                if (countZero) this.rotationsTo0++
             }
         }
 
-        if (this.curr == 0) this.rotationsTo0++
+//        if (this.curr == 0) this.rotationsTo0++
         this.print()
     }
 
