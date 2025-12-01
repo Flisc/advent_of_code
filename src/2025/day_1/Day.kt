@@ -17,11 +17,11 @@ class Day {
                 dial.rotateRightBy(line.substring(1).toInt())
             }
         }
+
 //        dial.rotateLeftBy(68)
 //        dial.rotateLeftBy(30)
 //        dial.rotateRightBy(48)
 //        dial.rotateLeftBy(5)
-//
 //        dial.rotateRightBy(60)
 //        dial.rotateLeftBy(55)
         return lines.size.toLong()
@@ -44,26 +44,51 @@ fun main() {
 data class Dial(var curr: Int) {
     val lefLimit: Int = 0
     val rightLimit: Int = 99
-    var leftRotationsTo0: Int = 0
+    var rotationsTo0: Int = 0
 
     fun rotateLeftBy(newValue: Int) {
         println("curr=$curr -> rotateLeftBy: $newValue")
-        this.curr -= newValue
-        if (this.curr < lefLimit) {
-            this.curr = this.rightLimit - abs(this.curr + 1)
+        if (newValue > 100) {
+            val shift = newValue % 100
+            this.curr -= shift
+            if (this.curr < lefLimit) {
+                this.curr = this.rightLimit - abs(this.curr + 1)
+            }
+        } else if (newValue % 100 == 0) {
+            println("curr=$curr -> rotateLeftBy: $newValue, same position")
         }
-        if (this.curr == 0) this.leftRotationsTo0++
+        if (newValue < 100) {
+            this.curr -= newValue
+            if (this.curr < lefLimit) {
+                this.curr = this.rightLimit - abs(this.curr + 1)
+            }
+        }
+
+        if (this.curr == 0) this.rotationsTo0++
         this.print()
     }
 
     fun rotateRightBy(newValue: Int) {
         println("curr=$curr -> rotateRightBy: $newValue")
-        this.curr += newValue
-        if (this.curr > this.rightLimit) {
-            this.curr = this.lefLimit + (this.curr - this.rightLimit) - 1
+        if (newValue > 100) {
+            val shift = newValue % 100
+            this.curr += shift
+            if (this.curr > rightLimit) {
+                this.curr = this.lefLimit + (this.curr - this.rightLimit) - 1
+            }
+        } else if (newValue % 100 == 0) {
+            println("curr=$curr -> rotateLeftBy: $newValue, same position")
         }
-        if (this.curr == 0) this.leftRotationsTo0++
+        if (newValue < 100) {
+            this.curr += newValue
+            if (this.curr > rightLimit) {
+                this.curr = this.lefLimit + (this.curr - this.rightLimit) - 1
+            }
+        }
+
+        if (this.curr == 0) this.rotationsTo0++
         this.print()
     }
-    override fun toString(): String = "curr=${curr}, leftRotations-to-0=${leftRotationsTo0}"
+
+    override fun toString(): String = "curr=${curr}, rotations-to-zero=${rotationsTo0}"
 }
