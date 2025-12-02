@@ -34,16 +34,17 @@ class Day {
             val ranges = line.split(",").filter { it.isNotBlank() }
             ranges.forEach { range ->
                 println("processing $range")
-                for (i in range.split("-")[0].toLong() .. range.split("-")[1].toLong()) {
+                val (start, end) = range.split("-").map { it.toLong() }
+                for (i in start .. end) {
                     val number = i.toString()
-                    val firstCombination = number.map { it.digitToInt() }.toSet().joinToString("")
-                    val splitted = number.split(firstCombination)
-                    val valid = splitted.all { it.isBlank() } && number.substringBefore(firstCombination).isBlank()
-                    val occurences = splitted.size -1
-                    if (valid && occurences >= 2) {
-                        println("id-ok: ${i}")
-                        sum += i
-                        count++
+                    val pattern = findPattern(number)
+                    if (pattern != null) {
+                        val occurrences = number.length / pattern.length
+                        if (occurrences >= 2) {
+                            println("id-ok: $i")
+                            sum += i
+                            count++
+                        }
                     }
                 }
             }
@@ -53,11 +54,25 @@ class Day {
     }
 }
 
+fun findPattern(s: String): String? {
+    val n = s.length
+    for (len in 1 until n) {
+        if (n % len == 0) {
+            val part = s.substring(0, len)
+            if (part.repeat(n / len) == s) {
+                return part
+            }
+        }
+    }
+    return null
+}
+
+
 fun main() {
     val runner = Day()
     val time = measureTimeMillis {
-        val example = readInput("example", runner.dayNumber, "2025")
-//        val example = readInput("puzzle", runner.dayNumber, "2025")
+//        val example = readInput("example", runner.dayNumber, "2025")
+        val example = readInput("puzzle", runner.dayNumber, "2025")
 //        runner.part1(example).print()
         runner.part2(example).prettyPrint("res")
     }
