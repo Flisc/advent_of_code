@@ -6,11 +6,11 @@ import kotlin.system.measureTimeMillis
 
 class Day {
     val dayNumber = "day_4"
-    val matrix = mutableListOf<List<String>>()
+    val matrix = mutableListOf<MutableList<String>>()
 
     fun part1(lines: List<String>): Long {
         var count: Long = 0
-        lines.forEach{ matrix.add(it.split("").filter { it.isNotEmpty() }) }
+        lines.forEach{ matrix.add(it.split("").filter { it.isNotEmpty() }.toMutableList()) }
         for (i in 0..matrix.size-1){
             for (j in 0..matrix[i].size-1){
                 if(matrix[i][j] == "@"){
@@ -24,11 +24,30 @@ class Day {
     }
 
     fun part2(lines: List<String>): Long {
-        var sum: Long = 0
         var count: Long = 0
+        var removed: Long = 0
+        lines.forEach { matrix.add(it.split("").filter { it.isNotEmpty() }.toMutableList()) }
 
-        return sum
+        do {
+            removed = 0
+            for (i in 0 .. matrix.size - 1) {
+                for (j in 0 .. matrix[i].size - 1) {
+                    if (matrix[i][j] == "@") {
+                        if (countAdiacentRolls(i, j) < 4) {
+                            matrix[i][j] = "x";
+                            removed = 1
+                            count++
+                            println("removed: $i - $j")
+                        }
+                    }
+                }
+            }
+        }
+        while (removed != 0L)
+
+        return count
     }
+
     fun countAdiacentRolls(row: Int, col: Int): Int {
         var count = 0
         val directions = arrayOf(
@@ -60,10 +79,10 @@ class Day {
 fun main() {
     val runner = Day()
     val time = measureTimeMillis {
-//        val example = readInput("example", runner.dayNumber, "2025")
-        val example = readInput("puzzle", runner.dayNumber, "2025")
-        runner.part1(example).prettyPrint("res")
-//        runner.part2(example).prettyPrint("res")
+        val example = readInput("example", runner.dayNumber, "2025")
+//        val example = readInput("puzzle", runner.dayNumber, "2025")
+//        runner.part1(example).prettyPrint("res")
+        runner.part2(example).prettyPrint("res")
     }
     println("Execution time: ${time}ms")
 }
