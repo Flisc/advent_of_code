@@ -24,8 +24,8 @@ class Day {
 //            val secondIndex: Int = lineNumbers.indexOf(second)
 //            val joltage = if (indexOfFirst <= secondIndex)
 //                         "$first$second".toInt() else "$second$first".toInt()
-            val joltage = "$first$second".toInt()
-            line.print();print(" -> $joltage \n")
+//            val joltage = "$first$second".toInt()
+//            line.print();print(" -> $joltage \n")
         }
         return sum
     }

@@ -1,23 +1,31 @@
 package template
 
+import Util.Companion.prettyPrint
 import print
 import readInput
+import kotlin.system.measureTimeMillis
 
 class Day {
-    val dayNumber = "Day_X"
+    val dayNumber = "day_x"
     fun part1(lines: List<String>): Long {
-        return lines.size as Long
+        var sum: Long = 0
+        return sum
     }
 
     fun part2(lines: List<String>): Long {
-        return lines.size as Long
+        var sum: Long = 0
+        return sum
     }
 }
 
+
 fun main() {
     val runner = Day()
-    val puzzle = readInput("puzzle", runner.dayNumber)
-    val example = readInput("example", runner.dayNumber)
-//    check(runner.part1(puzzle) == 123L)
-    runner.part1(puzzle).print()
+    val time = measureTimeMillis {
+        val example = readInput("example", runner.dayNumber, "2025")
+//        val example = readInput("puzzle", runner.dayNumber, "2025")
+        runner.part1(example).prettyPrint("res")
+//        runner.part2(example).prettyPrint("res")
+    }
+    println("Execution time: ${time}ms")
 }
