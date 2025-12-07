@@ -41,7 +41,7 @@ fun List<List<Any>>.printMatrix() {
     for (row in this) {
         println(row.joinToString(" "))
     }
-    println()
+    println("")
 }
 
 fun List<String>.searchAvailableRangeUntil(size: Int, limitIndex: Int): Pair<Int, Int>?  {
