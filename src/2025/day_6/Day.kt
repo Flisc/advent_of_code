@@ -1,7 +1,7 @@
 package `2025`.day_6
 
-import Util.Companion.prettyPrint
 import isNumber
+import printMatrix
 import println
 import readInput
 import kotlin.system.measureTimeMillis
@@ -40,12 +40,14 @@ class Day {
         var sum: Long = 0
         lines.forEach { line -> matrix.add(line.split("").drop(1).dropLast(1).toMutableList()) }
         // i col, j row
-        val lasRow =  matrix[matrix.size-1]
+        matrix.printMatrix();
+        val lastRow =  matrix[matrix.size-1]
+        println(lastRow)
 
-        for (i in 0..lasRow.size-1){
-            if (listOf("*", "+").contains(lasRow[i])){
-                val operator = lasRow[i]
-                val indexOfNextSpace = findIndexOfNextOperator(i, lasRow)
+        for (i in 0..lastRow.size-1){
+            if (listOf("*", "+").contains(lastRow[i])){
+                val operator = lastRow[i]
+                val indexOfNextSpace = findIndexOfNextOperator(i, lastRow)
                 // traverse columns from i -> indexOfNextSpace-1
                 sum += traverseColumns(matrix, i, indexOfNextSpace-1, operator)
             }
@@ -56,6 +58,7 @@ class Day {
     fun findIndexOfNextOperator(currentIndex: Int, list: MutableList<String>): Int {
         for (j in currentIndex+1..list.size-1) {
             if (listOf("*", "+").contains(list[j])) {
+                println("$currentIndex -> $j")
                 return j-1
             }
         }
@@ -67,8 +70,9 @@ class Day {
         var colRes: Long = if (operator == "*") 1 else 0
         for (col in startCol..endCol) {
             // each row for the current column
-            for (row in 0..matrix.size-1) {
+            for (row in 0..matrix.size - 1) {
                 val item = matrix[row][col]
+                println("ITEM: $item")
                 if (item.isNumber()) {
                     sb.append(matrix[row][col])
                 }
@@ -96,7 +100,8 @@ fun main() {
 //        val example = readInput("example", runner.dayNumber, "2025")
         val example = readInput("puzzle", runner.dayNumber, "2025")
 //        runner.part1(example).prettyPrint("res")
-        runner.part2(example).prettyPrint("res")
+//        runner.part2(example).prettyPrint("res")
+        println( "result: ${runner.part2(example)}")
     }
     println("Execution time: ${time}ms")
 }
