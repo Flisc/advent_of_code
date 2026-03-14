@@ -1,0 +1,3109 @@
+{
+  "-Omhvg0JZTJzvF_YdxRB": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "UNKNOW ",
+      "clientPhone": "0740761293",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 10,
+          "item": {
+            "bucati": 367,
+            "created": -1,
+            "key": "a0762daa-0bf1-47cd-b647-5090922be66c",
+            "metriCubi": 33.03,
+            "product": {
+              "descriere": "10x15x6m",
+              "id": "a0762daa-0bf1-47cd-b647-5090922be66c",
+              "inaltime": 0.15,
+              "label": "Coarne (10x15x6m)",
+              "latime": 0.1,
+              "lungime": 6,
+              "nume": "Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.09
+            },
+            "productName": "Coarne"
+          },
+          "mc": 0.9,
+          "pret": 1130,
+          "pret_buc": 113,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772436899759,
+    "deletedAt": 1772444631769,
+    "incasat": true,
+    "itemsString": "Coarne(10x15x6m)",
+    "key": "-OmhTkQNrEHYFTobLWNX",
+    "livrat": true,
+    "mc_vanduti": 0.9,
+    "stoc_dupa_vanzare": 708.6992,
+    "stoc_initial": 709.5992,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 1130,
+    "tvaAmount": 0
+  },
+  "-Omhwtfp3jyJEFLfQ0CS": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "ADRIAN",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 200,
+          "item": {
+            "bucati": 3113,
+            "created": -1,
+            "key": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+            "metriCubi": 18.678,
+            "product": {
+              "descriere": "3x5x4m",
+              "id": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+              "inaltime": 0.05,
+              "label": "Leturi (3x5x4m)",
+              "latime": 0.03,
+              "lungime": 4,
+              "nume": "Leturi",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.006
+            },
+            "productName": "Leturi"
+          },
+          "mc": 1.2,
+          "pret": 1600,
+          "pret_buc": 8,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772444919892,
+    "deletedAt": 1772444949883,
+    "incasat": false,
+    "itemsString": "Leturi(3x5x4m)",
+    "key": "-Omhwqr4GzAAg6ts1DQV",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 1.2,
+    "stoc_dupa_vanzare": 706.6472,
+    "stoc_initial": 707.8472,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 1600,
+    "tvaAmount": 0,
+    "updated": 1772444949881
+  },
+  "-Omhx2KhcghlaG15F2sa": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "ADRIAN",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 40,
+          "item": {
+            "bucati": 279,
+            "created": -1,
+            "key": "74a649e9-c65e-4f27-a432-636b61a690c3",
+            "metriCubi": 11.16,
+            "product": {
+              "descriere": "10x10x4m",
+              "id": "74a649e9-c65e-4f27-a432-636b61a690c3",
+              "inaltime": 0.1,
+              "label": "Mini Coarne (10x10x4m)",
+              "latime": 0.1,
+              "lungime": 4,
+              "nume": "Mini Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.04
+            },
+            "productName": "Mini Coarne"
+          },
+          "mc": 1.6,
+          "pret": 1808,
+          "pret_buc": 45.2,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772444958819,
+    "deletedAt": 1772444989426,
+    "incasat": false,
+    "itemsString": "Mini Coarne(10x10x4m)",
+    "key": "-Omhx0TMeYlMMvCspDWi",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 1.6,
+    "stoc_dupa_vanzare": 705.0472,
+    "stoc_initial": 706.6472,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 1808,
+    "tvaAmount": 0,
+    "updated": 1772444989424
+  },
+  "-Omi0ZbP4Pm8TAKX7GdB": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "SEVAS VASILE",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 18,
+          "item": {
+            "bucati": 356,
+            "created": -1,
+            "key": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+            "metriCubi": 26.7,
+            "product": {
+              "descriere": "10x15x5m",
+              "id": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+              "inaltime": 0.15,
+              "label": "Coarne (10x15x5m)",
+              "latime": 0.1,
+              "lungime": 5,
+              "nume": "Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.075
+            },
+            "productName": "Coarne"
+          },
+          "mc": 1.35,
+          "pret": 1620,
+          "pret_buc": 90,
+          "transient": false
+        },
+        {
+          "bucati": 17,
+          "item": {
+            "bucati": 411,
+            "created": -1,
+            "key": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+            "metriCubi": 24.66,
+            "product": {
+              "descriere": "10x15x4m",
+              "id": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+              "inaltime": 0.15,
+              "label": "Coarne (10x15x4m)",
+              "latime": 0.1,
+              "lungime": 4,
+              "nume": "Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.06
+            },
+            "productName": "Coarne"
+          },
+          "mc": 1.02,
+          "pret": 1224,
+          "pret_buc": 72,
+          "transient": false
+        },
+        {
+          "bucati": 15,
+          "item": {
+            "bucati": 140,
+            "created": -1,
+            "key": "4cec4f5a-bb92-4002-9728-66f713def756",
+            "metriCubi": 3.5,
+            "product": {
+              "descriere": "S25x4m",
+              "id": "4cec4f5a-bb92-4002-9728-66f713def756",
+              "inaltime": 0.025,
+              "label": "Scandura  (S25x4m)",
+              "latime": 0.25,
+              "lungime": 4,
+              "nume": "Scandura ",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.025
+            },
+            "productName": "Scandura "
+          },
+          "mc": 0.375,
+          "pret": 487.5,
+          "pret_buc": 32.5,
+          "transient": false
+        },
+        {
+          "bucati": 20,
+          "item": {
+            "bucati": 2062,
+            "created": -1,
+            "key": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+            "metriCubi": 41.24,
+            "product": {
+              "descriere": "S20x4m",
+              "id": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+              "inaltime": 0.025,
+              "label": "Scandura (S20x4m)",
+              "latime": 0.2,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.02
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.4,
+          "pret": 480,
+          "pret_buc": 24,
+          "transient": false
+        },
+        {
+          "bucati": 10,
+          "item": {
+            "bucati": 4348,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 65.22,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.15,
+          "pret": 180,
+          "pret_buc": 18,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772180062347,
+    "deletedAt": 1772446174296,
+    "incasat": false,
+    "itemsString": "Coarne(10x15x5m), Coarne(10x15x4m), Scandura (S25x4m), Scandura(S20x4m), Scandura(S15x4m  )",
+    "key": "-OmTGuIVhFh5FoZpF92X",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 3.295,
+    "ordersUpdated": [
+      "-OmTJI9gxii37tiwk0oD_vineri, 27.02.2026, 10:47:32",
+      "-OmTMeJcTpyHO8scqUrh_vineri, 27.02.2026, 11:11:47",
+      "-OmTU2J5Bpzf74Dpvp5-_vineri, 27.02.2026, 11:40:38",
+      "-OmTcxlcPkREg_eAk3CR_vineri, 27.02.2026, 12:26:43",
+      "-OmUHrCOYRzAYwkXjb45_vineri, 27.02.2026, 15:29:55",
+      "-OmUIYQQ-pL-GlL39VdG_vineri, 27.02.2026, 15:31:57",
+      "-OmUIikvb5-mIYFQ34-G_vineri, 27.02.2026, 15:33:55",
+      "-OmUIxAggATtZbiiJs2t_vineri, 27.02.2026, 15:34:50",
+      "-OmUJTRswHiZOug8gmoK_vineri, 27.02.2026, 15:36:34",
+      "-OmUOQZGAEPmMDN4b1gI_vineri, 27.02.2026, 15:56:43",
+      "-OmUP8yR6xmecXOvhhTC_vineri, 27.02.2026, 16:01:45",
+      "-OmYsvy7qfeWOvPWiizF_sâmbătă, 28.02.2026, 12:54:29"
+    ],
+    "stoc_dupa_vanzare": 731.0512,
+    "stoc_initial": 734.3462,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 3991.5,
+    "tvaAmount": 0,
+    "updated": 1772446174259
+  },
+  "-Omiy6HTm4589e5s0NTV": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "BAILE 1 MAI",
+      "clientPhone": "0745809701",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 100,
+          "item": {
+            "bucati": 226,
+            "created": -1,
+            "key": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+            "metriCubi": 2.2600000000000002,
+            "product": {
+              "descriere": "5x5x4m",
+              "id": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+              "inaltime": 0.05,
+              "label": "Rigle (5x5x4m)",
+              "latime": 0.05,
+              "lungime": 4,
+              "nume": "Rigle",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.01
+            },
+            "productName": "Rigle"
+          },
+          "mc": 1,
+          "pret": 1500,
+          "pret_buc": 15,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772436635524,
+    "deletedAt": 1772462045140,
+    "incasat": true,
+    "itemsString": "Rigle(5x5x4m)",
+    "key": "-OmhT6MRzpN4htG2JBHb",
+    "livrat": false,
+    "mc_vanduti": 1,
+    "notes": "card",
+    "stoc_dupa_vanzare": 709.5992,
+    "stoc_initial": 710.5992,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 1500,
+    "tvaAmount": 0
+  },
+  "-Omnp6ErGzC0VvOgIshT": {
+    "comanda": {
+      "clientAddress": "STRADA MARTE NR 26",
+      "clientName": "TATA LUI BOGDAN",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 20,
+          "item": {
+            "bucati": 4221,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 63.315,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.3,
+          "pret": 345,
+          "pret_buc": 17.25,
+          "transient": false
+        },
+        {
+          "bucati": 15,
+          "item": {
+            "bucati": 564,
+            "created": -1,
+            "key": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+            "metriCubi": 11.28,
+            "product": {
+              "descriere": "5x10x4m",
+              "id": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+              "inaltime": 0.1,
+              "label": "Rigle (5x10x4m)",
+              "latime": 0.05,
+              "lungime": 4,
+              "nume": "Rigle",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.02
+            },
+            "productName": "Rigle"
+          },
+          "mc": 0.3,
+          "pret": 345,
+          "pret_buc": 23,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772541787107,
+    "deletedAt": 1772543570794,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  ), Rigle(5x10x4m)",
+    "key": "-Omniu2KcVAWdqETGDhy",
+    "livrat": true,
+    "mc_vanduti": 0.6,
+    "stoc_dupa_vanzare": 694.4642,
+    "stoc_initial": 695.0642,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 690,
+    "tvaAmount": 0
+  },
+  "-On17_xd-mUeEv3nCUvb": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "UNKNOW ",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 11,
+          "item": {
+            "bucati": 4163,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 62.445,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.165,
+          "pret": 264,
+          "pret_buc": 24,
+          "transient": false
+        },
+        {
+          "bucati": 2,
+          "item": {
+            "bucati": 4163,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 62.445,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.03,
+          "pret": 36,
+          "pret_buc": 18,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772782622661,
+    "deletedAt": 1772783559672,
+    "incasat": true,
+    "itemsString": "Scandura(S15x4m  ), Scandura(S15x4m  )",
+    "key": "-On14GS90lk8DsgmggZj",
+    "livrat": false,
+    "mc_vanduti": 0.195,
+    "stoc_dupa_vanzare": 666.5527,
+    "stoc_initial": 666.7477,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 300,
+    "tvaAmount": 0
+  },
+  "-On19qoyfDw4HvU2IAXo": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "UNKNOW ",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 8,
+          "item": {
+            "bucati": 4165,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 62.474999999999994,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.12,
+          "pret": 160,
+          "pret_buc": 20,
+          "transient": false
+        },
+        {
+          "bucati": 1,
+          "item": {
+            "bucati": 158,
+            "created": -1,
+            "key": "4cec4f5a-bb92-4002-9728-66f713def756",
+            "metriCubi": 3.95,
+            "product": {
+              "descriere": "S25x4m",
+              "id": "4cec4f5a-bb92-4002-9728-66f713def756",
+              "inaltime": 0.025,
+              "label": "Scandura  (S25x4m)",
+              "latime": 0.25,
+              "lungime": 4,
+              "nume": "Scandura ",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.025
+            },
+            "productName": "Scandura "
+          },
+          "mc": 0.025,
+          "pret": 20,
+          "pret_buc": 20,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772784122783,
+    "deletedAt": 1772784153037,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  ), Scandura (S25x4m)",
+    "key": "-On19oVxngnCCAsNQQk0",
+    "livrat": true,
+    "mc_vanduti": 0.145,
+    "stoc_dupa_vanzare": 665.6377,
+    "stoc_initial": 665.7827,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 180,
+    "tvaAmount": 0
+  },
+  "-On1HlilaVn4dha3IuNs": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "UNKNOW DANY",
+      "clientPhone": "0770732005",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 8,
+          "item": {
+            "bucati": 128,
+            "created": -1,
+            "key": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+            "metriCubi": 7.68,
+            "product": {
+              "descriere": "10x10x6m",
+              "id": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+              "inaltime": 0.1,
+              "label": "Mini Coarne (10x10x6m)",
+              "latime": 0.1,
+              "lungime": 6,
+              "nume": "Mini Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.06
+            },
+            "productName": "Mini Coarne"
+          },
+          "mc": 0.48,
+          "pret": 576,
+          "pret_buc": 72,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772782748592,
+    "deletedAt": 1772786228801,
+    "incasat": false,
+    "itemsString": "Mini Coarne(10x10x6m)",
+    "key": "-On14shwoCUts7q8nMEt",
+    "livrat": true,
+    "mc_vanduti": 0.48,
+    "stoc_dupa_vanzare": 666.0727,
+    "stoc_initial": 666.5527,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 576,
+    "tvaAmount": 0
+  },
+  "-On1xhVE67WHecu87nkl": {
+    "comanda": {
+      "clientAddress": "TAUTELEC NR 148",
+      "clientName": "VERES GESTIONAR SELINA",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 63,
+          "item": {
+            "bucati": 1840,
+            "created": -1,
+            "key": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+            "metriCubi": 36.800000000000004,
+            "product": {
+              "descriere": "S20x4m",
+              "id": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+              "inaltime": 0.025,
+              "label": "Scandura (S20x4m)",
+              "latime": 0.2,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.02
+            },
+            "productName": "Scandura"
+          },
+          "mc": 1.26,
+          "pret": 1512,
+          "pret_buc": 24,
+          "transient": false
+        },
+        {
+          "bucati": 25,
+          "item": {
+            "bucati": 714,
+            "created": -1,
+            "key": "bc98780c-326c-42c7-b29b-533806127fe7",
+            "metriCubi": 26.775,
+            "product": {
+              "descriere": "5x15x5m",
+              "id": "bc98780c-326c-42c7-b29b-533806127fe7",
+              "inaltime": 0.15,
+              "label": "CClesti (5x15x5m)",
+              "latime": 0.05,
+              "lungime": 5,
+              "nume": "CClesti",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.0375
+            },
+            "productName": "CClesti"
+          },
+          "mc": 0.9375,
+          "pret": 1088,
+          "pret_buc": 43.52,
+          "transient": false
+        }
+      ],
+      "key": "-Oms6EuOG_9UstnhT4_4",
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772615042035,
+    "deletedAt": 1772797483781,
+    "incasat": false,
+    "itemsString": "Scandura(S20x4m), CClesti(5x15x5m)",
+    "key": "-On1xd8NOFARgWO2k5WE",
+    "livrat": false,
+    "mc_vanduti": 2.1975,
+    "stoc_dupa_vanzare": 657.9362,
+    "stoc_initial": 660.1337,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 2600,
+    "tvaAmount": 0
+  },
+  "-On2-hEG11ZtqOqaWX-g": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "COPACEL",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 6,
+          "item": {
+            "bucati": 187,
+            "created": -1,
+            "key": "58144c18-c0e4-41d6-8479-8467908bcb97",
+            "metriCubi": 21.0375,
+            "product": {
+              "descriere": "15x15x5m",
+              "id": "58144c18-c0e4-41d6-8479-8467908bcb97",
+              "inaltime": 0.15,
+              "label": "Grinzi (15x15x5m)",
+              "latime": 0.15,
+              "lungime": 5,
+              "nume": "Grinzi",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.1125
+            },
+            "productName": "Grinzi"
+          },
+          "mc": 0.675,
+          "pret": 870,
+          "pret_buc": 145,
+          "transient": false
+        },
+        {
+          "bucati": 17,
+          "item": {
+            "bucati": 14,
+            "created": -1,
+            "key": "25b6b196-d585-4fa8-8b2f-590900aede4b",
+            "metriCubi": 1.008,
+            "product": {
+              "descriere": "8x15x6m",
+              "id": "25b6b196-d585-4fa8-8b2f-590900aede4b",
+              "inaltime": 0.15,
+              "label": "Hu.Coarne (8x15x6m)",
+              "latime": 0.08,
+              "lungime": 6,
+              "nume": "Hu.Coarne",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.072
+            },
+            "productName": "Hu.Coarne"
+          },
+          "mc": 1.224,
+          "pret": 1530,
+          "pret_buc": 90,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 80
+    },
+    "custody": false,
+    "data": 1772786273797,
+    "deletedAt": 1772798269126,
+    "incasat": false,
+    "itemsString": "Grinzi(15x15x5m), Hu.Coarne(8x15x6m)",
+    "key": "-On1KaC1ptqoJ2lpPCbd",
+    "livrat": false,
+    "mc_vanduti": 1.899,
+    "stoc_dupa_vanzare": 662.5937,
+    "stoc_initial": 664.4927,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 2400,
+    "tvaAmount": 0
+  },
+  "-OnLquqHxskknd6udp1u": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "ABED NEGO",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 20,
+          "item": {
+            "bucati": 3877,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 58.155,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.3,
+          "pret": 375,
+          "pret_buc": 18.75,
+          "transient": false
+        },
+        {
+          "bucati": 20,
+          "item": {
+            "bucati": 1527,
+            "created": -1,
+            "key": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+            "metriCubi": 30.54,
+            "product": {
+              "descriere": "S20x4m",
+              "id": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+              "inaltime": 0.025,
+              "label": "Scandura (S20x4m)",
+              "latime": 0.2,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.02
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.4,
+          "pret": 500,
+          "pret_buc": 25,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773130979932,
+    "deletedAt": 1773131247513,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  ), Scandura(S20x4m)",
+    "key": "-OnLq6azqxAj5T7dge-C",
+    "livrat": false,
+    "mc_vanduti": 0.7,
+    "stoc_dupa_vanzare": 637.1447,
+    "stoc_initial": 637.8447,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 875,
+    "tvaAmount": 0
+  },
+  "-OnRQ-5YeG-kCEUqZ4bn": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "UNKNOW ",
+      "clientPhone": "0751376232",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 46,
+          "item": {
+            "bucati": 538,
+            "created": -1,
+            "key": "c1911d22-fdf2-4d26-a377-cd3fb9c1a210",
+            "metriCubi": 0,
+            "product": {
+              "descriere": "18mm/137/4000",
+              "id": "c1911d22-fdf2-4d26-a377-cd3fb9c1a210",
+              "inaltime": 0,
+              "label": "Lambriu (18mm/137/4000)",
+              "latime": 0,
+              "lungime": 0,
+              "nume": "Lambriu",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0
+            },
+            "productName": "Lambriu"
+          },
+          "mc": 0,
+          "pret": 1.5,
+          "pret_buc": 0.0326,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773224536314,
+    "deletedAt": 1773224592238,
+    "incasat": false,
+    "itemsString": "Lambriu(18mm/137/4000)",
+    "key": "-OnRPtj1JudT22iXCX20",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 0,
+    "stoc_dupa_vanzare": 683.0357,
+    "stoc_initial": 683.0357,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 1.5,
+    "tvaAmount": 0,
+    "updated": 1773224592229
+  },
+  "-OnXTMO1TaNsH2Joqs-3": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "CINCEA",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 100,
+          "item": {
+            "bucati": 475,
+            "created": -1,
+            "key": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+            "metriCubi": 14.25,
+            "product": {
+              "descriere": "5x15x4m",
+              "id": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+              "inaltime": 0.15,
+              "label": "Clesti (5x15x4m)",
+              "latime": 0.05,
+              "lungime": 4,
+              "nume": "Clesti",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.03
+            },
+            "productName": "Clesti"
+          },
+          "mc": 3,
+          "pret": 3750,
+          "pret_buc": 37.5,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773310327432,
+    "deletedAt": 1773326137813,
+    "incasat": false,
+    "itemsString": "Clesti(5x15x4m)",
+    "key": "-OnWX5QMoLxM9JE8y2iA",
+    "livrat": false,
+    "mc_vanduti": 3,
+    "stoc_dupa_vanzare": 672.0357,
+    "stoc_initial": 675.0357,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 3750,
+    "tvaAmount": 0
+  },
+  "-OnXYdzdbaxN4qHXJ2mU": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "CALUDIU MECANIC",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 11,
+          "item": {
+            "bucati": 128,
+            "created": -1,
+            "key": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+            "metriCubi": 6.144,
+            "product": {
+              "descriere": "10x12x4m",
+              "id": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+              "inaltime": 0.12,
+              "label": "Capriori (10x12x4m)",
+              "latime": 0.1,
+              "lungime": 4,
+              "nume": "Capriori",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.048
+            },
+            "productName": "Capriori"
+          },
+          "mc": 0.528,
+          "pret": 660,
+          "pret_buc": 60,
+          "transient": false
+        },
+        {
+          "bucati": 35,
+          "item": {
+            "bucati": 1548,
+            "created": -1,
+            "key": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+            "metriCubi": 15.48,
+            "product": {
+              "descriere": "S10x4m",
+              "id": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+              "inaltime": 0.025,
+              "label": "Scandura (S10x4m)",
+              "latime": 0.1,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.01
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.35,
+          "pret": 437.5,
+          "pret_buc": 12.5,
+          "transient": false
+        },
+        {
+          "bucati": 12,
+          "item": {
+            "bucati": 2918,
+            "created": -1,
+            "key": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+            "metriCubi": 58.36,
+            "product": {
+              "descriere": "S20x4m",
+              "id": "2023c222-0c1e-4213-804a-8c8c9eda3adb",
+              "inaltime": 0.025,
+              "label": "Scandura (S20x4m)",
+              "latime": 0.2,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.02
+            },
+            "productName": "Scandura"
+          },
+          "mc": 0.24,
+          "pret": 300,
+          "pret_buc": 25,
+          "transient": false
+        },
+        {
+          "bucati": 1,
+          "item": {
+            "bucati": 287,
+            "created": -1,
+            "key": "f913668c-4017-4ff9-9f97-74d942e6b859",
+            "metriCubi": 38.745000000000005,
+            "product": {
+              "descriere": "15x15x6m",
+              "id": "f913668c-4017-4ff9-9f97-74d942e6b859",
+              "inaltime": 0.15,
+              "label": "Grinzi (15x15x6m)",
+              "latime": 0.15,
+              "lungime": 6,
+              "nume": "Grinzi",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.135
+            },
+            "productName": "Grinzi"
+          },
+          "mc": 0.135,
+          "pret": 302.5,
+          "pret_buc": 302.5,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773325511161,
+    "deletedAt": 1773327524732,
+    "incasat": false,
+    "itemsString": "Capriori(10x12x4m), Scandura(S10x4m), Scandura(S20x4m), Grinzi(15x15x6m)",
+    "key": "-OnXTEqACxhEbEkCMZBh",
+    "livrat": false,
+    "mcDiff": 0.135,
+    "mc_vanduti": 1.253,
+    "newItems": [
+      {
+        "bucati": 1,
+        "item": {
+          "bucati": 287,
+          "created": -1,
+          "key": "f913668c-4017-4ff9-9f97-74d942e6b859",
+          "metriCubi": 38.745000000000005,
+          "product": {
+            "descriere": "15x15x6m",
+            "id": "f913668c-4017-4ff9-9f97-74d942e6b859",
+            "inaltime": 0.15,
+            "label": "Grinzi (15x15x6m)",
+            "latime": 0.15,
+            "lungime": 6,
+            "nume": "Grinzi",
+            "pret": 0,
+            "unit": "buc",
+            "volum": 0.135
+          },
+          "productName": "Grinzi"
+        },
+        "mc": 0.135,
+        "pret": 302.5,
+        "pret_buc": 302.5,
+        "transient": false
+      }
+    ],
+    "stoc_dupa_vanzare": 649.2141,
+    "stoc_initial": 650.4671,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 1700,
+    "tvaAmount": 0,
+    "updated": 1773327524725
+  },
+  "-OnaSQunfosmMKlr-Vgj": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 80,
+        "key": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+        "metriCubi": 0.8,
+        "product": {
+          "descriere": "5x5x4m",
+          "id": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+          "inaltime": 0.05,
+          "label": "Rigle (5x5x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Rigle",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.01
+        },
+        "productName": "Rigle"
+      },
+      "old_stock_item": {
+        "bucati": 79,
+        "created": -1,
+        "key": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+        "metriCubi": 0.79,
+        "product": {
+          "descriere": "5x5x4m",
+          "id": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+          "inaltime": 0.05,
+          "label": "Rigle (5x5x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Rigle",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.01
+        },
+        "productName": "Rigle"
+      }
+    },
+    "date": 1773322829639,
+    "deletedAt": 1773393003479,
+    "key": "-OnXGkqKrPuTI1JqRGmn",
+    "metri_cubi": 0.01,
+    "stoc_final": 654.1951,
+    "stoc_initial": 654.1851,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnaSRSmm-lv-jWtoTwc": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 0,
+        "key": "7524f0ff-45f8-43a1-9d2e-ec56afea70bb",
+        "metriCubi": 0,
+        "product": {
+          "descriere": "S10X6m",
+          "id": "7524f0ff-45f8-43a1-9d2e-ec56afea70bb",
+          "inaltime": 0.025,
+          "label": "Scandura  (S10X6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.015
+        },
+        "productName": "Scandura "
+      },
+      "old_stock_item": {
+        "bucati": 4,
+        "created": -1,
+        "key": "7524f0ff-45f8-43a1-9d2e-ec56afea70bb",
+        "metriCubi": 0.06,
+        "product": {
+          "descriere": "S10X6m",
+          "id": "7524f0ff-45f8-43a1-9d2e-ec56afea70bb",
+          "inaltime": 0.025,
+          "label": "Scandura  (S10X6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.015
+        },
+        "productName": "Scandura "
+      }
+    },
+    "date": 1773143139353,
+    "deletedAt": 1773393005719,
+    "key": "-OnMZIgGw-Ve65t9z9en",
+    "metri_cubi": 0.06,
+    "stoc_final": 691.3117,
+    "stoc_initial": 691.3717,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbFyrP6CwsNMVX8V0A": {
+    "comanda": {
+      "clientAddress": "cursa nr 5",
+      "clientName": "SELINA",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 500,
+          "item": {
+            "bucati": 3975,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 59.625,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 7.5,
+          "pret": 8475,
+          "pret_buc": 16.95,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1771939674830,
+    "deletedAt": 1773406515462,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  )",
+    "key": "-OmEpaC7HSamrIry2Ksz",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 7.5,
+    "ordersUpdated": [
+      "-OmJ00K1H6DIm2uTFxj8_miercuri, 25.02.2026, 10:56:06",
+      "-OmJ1d-9Jblmt1g_rGGw_miercuri, 25.02.2026, 11:03:55",
+      "-OmJ1tsdFIvOwj8Qvnn9_miercuri, 25.02.2026, 11:04:22",
+      "-OmJ2GETIBcpViVhADWk_miercuri, 25.02.2026, 11:05:27",
+      "-OmJ6LEyJjg6lZMd8p43_miercuri, 25.02.2026, 11:23:23",
+      "-OmJ85rJz9AqLPhJJ4Kt_miercuri, 25.02.2026, 11:31:41",
+      "-OmJ9EzrvADNZ3Tx5Nfn_miercuri, 25.02.2026, 11:36:40",
+      "-OmJDj5nlo3VE7oZMp6K_miercuri, 25.02.2026, 11:55:44",
+      "-OmJIb_qTGbb9Px4aiYW_miercuri, 25.02.2026, 12:17:11",
+      "-OmJL2L7fxnU0z49m5Sk_miercuri, 25.02.2026, 12:23:59",
+      "-OmJq9oOACHN7s6W0iNS_miercuri, 25.02.2026, 14:46:12",
+      "-OmK8ky6mnEfRdFbWzHJ_miercuri, 25.02.2026, 16:14:15",
+      "-OmK9IvYIt_4l3E57j6e_miercuri, 25.02.2026, 16:14:54",
+      "-OmK9Y2P-bAA8vdVYFgD_miercuri, 25.02.2026, 16:17:19",
+      "-OmK9gqv2N4y7_PR-8Sy_miercuri, 25.02.2026, 16:18:19",
+      "-OmNnZD35JWh-kHsPn5y_joi, 26.02.2026, 09:15:17",
+      "-OmO-QDEkA37o3iYZXBz_joi, 26.02.2026, 10:11:01",
+      "-OmOALO0L14dYJ5YjPXz_joi, 26.02.2026, 10:59:01",
+      "-OmOo588yAUY6QNA1rbT_joi, 26.02.2026, 13:58:08",
+      "-OmOp4L1firyjocgKJq2_joi, 26.02.2026, 14:00:45",
+      "-OmPIF6h3BxV-_qR5TEd_joi, 26.02.2026, 14:11:38",
+      "-OmPN9ahLRJp6co-uf6r_joi, 26.02.2026, 16:30:25",
+      "-OmPVQziv3-V1z2f_1UO_joi, 26.02.2026, 17:11:16",
+      "-OmT0IqWZkYMV_jMM_3C_vineri, 27.02.2026, 09:33:21",
+      "-OmT1Wmz94zJbm0ss0pO_vineri, 27.02.2026, 09:39:10",
+      "-OmT4fRmGG6IabdY8dHg_vineri, 27.02.2026, 09:49:40",
+      "-OmT8PzwlUaooLhU4OjD_vineri, 27.02.2026, 10:09:06",
+      "-OmTGuIVhFh5FoZpF92X_vineri, 27.02.2026, 10:14:22",
+      "-OmTJI9gxii37tiwk0oD_vineri, 27.02.2026, 10:47:32",
+      "-OmTMeJcTpyHO8scqUrh_vineri, 27.02.2026, 11:11:47",
+      "-OmTU2J5Bpzf74Dpvp5-_vineri, 27.02.2026, 11:40:38",
+      "-OmTcxlcPkREg_eAk3CR_vineri, 27.02.2026, 12:26:43",
+      "-OmUHrCOYRzAYwkXjb45_vineri, 27.02.2026, 15:29:55",
+      "-OmUIYQQ-pL-GlL39VdG_vineri, 27.02.2026, 15:31:57",
+      "-OmUIikvb5-mIYFQ34-G_vineri, 27.02.2026, 15:33:55",
+      "-OmUIxAggATtZbiiJs2t_vineri, 27.02.2026, 15:34:50",
+      "-OmUJTRswHiZOug8gmoK_vineri, 27.02.2026, 15:36:34",
+      "-OmUOQZGAEPmMDN4b1gI_vineri, 27.02.2026, 15:56:43",
+      "-OmUP8yR6xmecXOvhhTC_vineri, 27.02.2026, 16:01:45",
+      "-OmYsvy7qfeWOvPWiizF_sâmbătă, 28.02.2026, 12:54:29"
+    ],
+    "stoc_dupa_vanzare": 668.5498,
+    "stoc_initial": 676.0498,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 8475,
+    "tvaAmount": 0,
+    "updated": 1773406515400
+  },
+  "-OnbGt866Waz4caLG02o": {
+    "comanda": {
+      "clientAddress": "LIVRATA IN 24.02.2025",
+      "clientName": "SELINA CURSA NR 6",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 433,
+          "item": {
+            "bucati": 4096,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 61.44,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 6.495,
+          "pret": 7343.68,
+          "pret_buc": 16.96,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1772369735000,
+    "deletedAt": 1773406754136,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  )",
+    "key": "-OnbGTPTUosB-WtjhMdE",
+    "livrat": true,
+    "mc_vanduti": 6.495,
+    "notes": " DEF HIDISEL 1.0M3",
+    "stoc_dupa_vanzare": 645.4876,
+    "stoc_initial": 651.9826,
+    "tip": "RETUR COMANDA",
+    "total_comanda": 7343.68,
+    "tvaAmount": 0
+  },
+  "-OnbWR5ZD-jNslZ3erlD": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "SELINA CURSA NR 5",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 500,
+          "item": {
+            "bucati": 4029,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 60.434999999999995,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 7.5,
+          "pret": 8475,
+          "pret_buc": 16.95,
+          "transient": false
+        }
+      ],
+      "key": "-OnbIO-po-opzgPDSzE9",
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1771938007000,
+    "deletedAt": 1773410829719,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  )",
+    "key": "-OnbUJAnjTdE3fqnCNur",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 7.5,
+    "ordersUpdated": [
+      "-OmEpaC7HSamrIry2Ksz_marți, 24.02.2026, 15:27:54",
+      "-OmJ00K1H6DIm2uTFxj8_miercuri, 25.02.2026, 10:56:06",
+      "-OmJ1d-9Jblmt1g_rGGw_miercuri, 25.02.2026, 11:03:55",
+      "-OmJ1tsdFIvOwj8Qvnn9_miercuri, 25.02.2026, 11:04:22",
+      "-OmJ2GETIBcpViVhADWk_miercuri, 25.02.2026, 11:05:27",
+      "-OmJ6LEyJjg6lZMd8p43_miercuri, 25.02.2026, 11:23:23",
+      "-OmJ85rJz9AqLPhJJ4Kt_miercuri, 25.02.2026, 11:31:41",
+      "-OmJ9EzrvADNZ3Tx5Nfn_miercuri, 25.02.2026, 11:36:40",
+      "-OmJDj5nlo3VE7oZMp6K_miercuri, 25.02.2026, 11:55:44",
+      "-OmJIb_qTGbb9Px4aiYW_miercuri, 25.02.2026, 12:17:11",
+      "-OmJL2L7fxnU0z49m5Sk_miercuri, 25.02.2026, 12:23:59",
+      "-OmJq9oOACHN7s6W0iNS_miercuri, 25.02.2026, 14:46:12",
+      "-OmK8ky6mnEfRdFbWzHJ_miercuri, 25.02.2026, 16:14:15",
+      "-OmK9IvYIt_4l3E57j6e_miercuri, 25.02.2026, 16:14:54",
+      "-OmK9Y2P-bAA8vdVYFgD_miercuri, 25.02.2026, 16:17:19",
+      "-OmK9gqv2N4y7_PR-8Sy_miercuri, 25.02.2026, 16:18:19",
+      "-OmNnZD35JWh-kHsPn5y_joi, 26.02.2026, 09:15:17",
+      "-OmO-QDEkA37o3iYZXBz_joi, 26.02.2026, 10:11:01",
+      "-OmOALO0L14dYJ5YjPXz_joi, 26.02.2026, 10:59:01",
+      "-OmOo588yAUY6QNA1rbT_joi, 26.02.2026, 13:58:08",
+      "-OmOp4L1firyjocgKJq2_joi, 26.02.2026, 14:00:45",
+      "-OmPIF6h3BxV-_qR5TEd_joi, 26.02.2026, 14:11:38",
+      "-OmPN9ahLRJp6co-uf6r_joi, 26.02.2026, 16:30:25",
+      "-OmPVQziv3-V1z2f_1UO_joi, 26.02.2026, 17:11:16",
+      "-OmT0IqWZkYMV_jMM_3C_vineri, 27.02.2026, 09:33:21",
+      "-OmT1Wmz94zJbm0ss0pO_vineri, 27.02.2026, 09:39:10",
+      "-OmT4fRmGG6IabdY8dHg_vineri, 27.02.2026, 09:49:40",
+      "-OmT8PzwlUaooLhU4OjD_vineri, 27.02.2026, 10:09:06",
+      "-OmTGuIVhFh5FoZpF92X_vineri, 27.02.2026, 10:14:22",
+      "-OmTJI9gxii37tiwk0oD_vineri, 27.02.2026, 10:47:32",
+      "-OmTMeJcTpyHO8scqUrh_vineri, 27.02.2026, 11:11:47",
+      "-OmTU2J5Bpzf74Dpvp5-_vineri, 27.02.2026, 11:40:38",
+      "-OmTcxlcPkREg_eAk3CR_vineri, 27.02.2026, 12:26:43",
+      "-OmUHrCOYRzAYwkXjb45_vineri, 27.02.2026, 15:29:55",
+      "-OmUIYQQ-pL-GlL39VdG_vineri, 27.02.2026, 15:31:57",
+      "-OmUIikvb5-mIYFQ34-G_vineri, 27.02.2026, 15:33:55",
+      "-OmUIxAggATtZbiiJs2t_vineri, 27.02.2026, 15:34:50",
+      "-OmUJTRswHiZOug8gmoK_vineri, 27.02.2026, 15:36:34",
+      "-OmUOQZGAEPmMDN4b1gI_vineri, 27.02.2026, 15:56:43",
+      "-OmUP8yR6xmecXOvhhTC_vineri, 27.02.2026, 16:01:45",
+      "-OmYsvy7qfeWOvPWiizF_sâmbătă, 28.02.2026, 12:54:29"
+    ],
+    "stoc_dupa_vanzare": 644.0176,
+    "stoc_initial": 651.5176,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 8475,
+    "tvaAmount": 0,
+    "updated": 1773410829662
+  },
+  "-OnbWXuOjSHhlnf0ub9r": {
+    "comanda": {
+      "clientAddress": "cursa nr 6",
+      "clientName": "SELINA",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 500,
+          "item": {
+            "bucati": 3975,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 59.625,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 7.5,
+          "pret": 8475,
+          "pret_buc": 16.95,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1771939674830,
+    "deletedAt": 1773410857612,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  )",
+    "key": "-OmEpaC7HSamrIry2Ksz",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 7.5,
+    "ordersUpdated": [
+      "-OmJ00K1H6DIm2uTFxj8_miercuri, 25.02.2026, 10:56:06",
+      "-OmJ1d-9Jblmt1g_rGGw_miercuri, 25.02.2026, 11:03:55",
+      "-OmJ1tsdFIvOwj8Qvnn9_miercuri, 25.02.2026, 11:04:22",
+      "-OmJ2GETIBcpViVhADWk_miercuri, 25.02.2026, 11:05:27",
+      "-OmJ6LEyJjg6lZMd8p43_miercuri, 25.02.2026, 11:23:23",
+      "-OmJ85rJz9AqLPhJJ4Kt_miercuri, 25.02.2026, 11:31:41",
+      "-OmJ9EzrvADNZ3Tx5Nfn_miercuri, 25.02.2026, 11:36:40",
+      "-OmJDj5nlo3VE7oZMp6K_miercuri, 25.02.2026, 11:55:44",
+      "-OmJIb_qTGbb9Px4aiYW_miercuri, 25.02.2026, 12:17:11",
+      "-OmJL2L7fxnU0z49m5Sk_miercuri, 25.02.2026, 12:23:59",
+      "-OmJq9oOACHN7s6W0iNS_miercuri, 25.02.2026, 14:46:12",
+      "-OmK8ky6mnEfRdFbWzHJ_miercuri, 25.02.2026, 16:14:15",
+      "-OmK9IvYIt_4l3E57j6e_miercuri, 25.02.2026, 16:14:54",
+      "-OmK9Y2P-bAA8vdVYFgD_miercuri, 25.02.2026, 16:17:19",
+      "-OmK9gqv2N4y7_PR-8Sy_miercuri, 25.02.2026, 16:18:19",
+      "-OmNnZD35JWh-kHsPn5y_joi, 26.02.2026, 09:15:17",
+      "-OmO-QDEkA37o3iYZXBz_joi, 26.02.2026, 10:11:01",
+      "-OmOALO0L14dYJ5YjPXz_joi, 26.02.2026, 10:59:01",
+      "-OmOo588yAUY6QNA1rbT_joi, 26.02.2026, 13:58:08",
+      "-OmOp4L1firyjocgKJq2_joi, 26.02.2026, 14:00:45",
+      "-OmPIF6h3BxV-_qR5TEd_joi, 26.02.2026, 14:11:38",
+      "-OmPN9ahLRJp6co-uf6r_joi, 26.02.2026, 16:30:25",
+      "-OmPVQziv3-V1z2f_1UO_joi, 26.02.2026, 17:11:16",
+      "-OmT0IqWZkYMV_jMM_3C_vineri, 27.02.2026, 09:33:21",
+      "-OmT1Wmz94zJbm0ss0pO_vineri, 27.02.2026, 09:39:10",
+      "-OmT4fRmGG6IabdY8dHg_vineri, 27.02.2026, 09:49:40",
+      "-OmT8PzwlUaooLhU4OjD_vineri, 27.02.2026, 10:09:06",
+      "-OmTGuIVhFh5FoZpF92X_vineri, 27.02.2026, 10:14:22",
+      "-OmTJI9gxii37tiwk0oD_vineri, 27.02.2026, 10:47:32",
+      "-OmTMeJcTpyHO8scqUrh_vineri, 27.02.2026, 11:11:47",
+      "-OmTU2J5Bpzf74Dpvp5-_vineri, 27.02.2026, 11:40:38",
+      "-OmTcxlcPkREg_eAk3CR_vineri, 27.02.2026, 12:26:43",
+      "-OmUHrCOYRzAYwkXjb45_vineri, 27.02.2026, 15:29:55",
+      "-OmUIYQQ-pL-GlL39VdG_vineri, 27.02.2026, 15:31:57",
+      "-OmUIikvb5-mIYFQ34-G_vineri, 27.02.2026, 15:33:55",
+      "-OmUIxAggATtZbiiJs2t_vineri, 27.02.2026, 15:34:50",
+      "-OmUJTRswHiZOug8gmoK_vineri, 27.02.2026, 15:36:34",
+      "-OmUOQZGAEPmMDN4b1gI_vineri, 27.02.2026, 15:56:43",
+      "-OmUP8yR6xmecXOvhhTC_vineri, 27.02.2026, 16:01:45",
+      "-OmYsvy7qfeWOvPWiizF_sâmbătă, 28.02.2026, 12:54:29"
+    ],
+    "stoc_dupa_vanzare": 661.0498,
+    "stoc_initial": 668.5498,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 8475,
+    "tvaAmount": 0,
+    "updated": 1773410857557
+  },
+  "-OnbWhwGnpZz3Km8X83U": {
+    "comanda": {
+      "clientAddress": "CURSA NR 6",
+      "clientName": "SELINA",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 500,
+          "item": {
+            "bucati": 3975,
+            "created": -1,
+            "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+            "metriCubi": 59.625,
+            "product": {
+              "descriere": "S15x4m  ",
+              "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+              "inaltime": 0.025,
+              "label": "Scandura (S15x4m  )",
+              "latime": 0.15,
+              "lungime": 4,
+              "nume": "Scandura",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.015
+            },
+            "productName": "Scandura"
+          },
+          "mc": 7.5,
+          "pret": 8475,
+          "pret_buc": 16.95,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1771939674830,
+    "deletedAt": 1773410902787,
+    "incasat": false,
+    "itemsString": "Scandura(S15x4m  )",
+    "key": "-OmEpaC7HSamrIry2Ksz",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 7.5,
+    "ordersUpdated": [
+      "-OmJ00K1H6DIm2uTFxj8_miercuri, 25.02.2026, 10:56:06",
+      "-OmJ1d-9Jblmt1g_rGGw_miercuri, 25.02.2026, 11:03:55",
+      "-OmJ1tsdFIvOwj8Qvnn9_miercuri, 25.02.2026, 11:04:22",
+      "-OmJ2GETIBcpViVhADWk_miercuri, 25.02.2026, 11:05:27",
+      "-OmJ6LEyJjg6lZMd8p43_miercuri, 25.02.2026, 11:23:23",
+      "-OmJ85rJz9AqLPhJJ4Kt_miercuri, 25.02.2026, 11:31:41",
+      "-OmJ9EzrvADNZ3Tx5Nfn_miercuri, 25.02.2026, 11:36:40",
+      "-OmJDj5nlo3VE7oZMp6K_miercuri, 25.02.2026, 11:55:44",
+      "-OmJIb_qTGbb9Px4aiYW_miercuri, 25.02.2026, 12:17:11",
+      "-OmJL2L7fxnU0z49m5Sk_miercuri, 25.02.2026, 12:23:59",
+      "-OmJq9oOACHN7s6W0iNS_miercuri, 25.02.2026, 14:46:12",
+      "-OmK8ky6mnEfRdFbWzHJ_miercuri, 25.02.2026, 16:14:15",
+      "-OmK9IvYIt_4l3E57j6e_miercuri, 25.02.2026, 16:14:54",
+      "-OmK9Y2P-bAA8vdVYFgD_miercuri, 25.02.2026, 16:17:19",
+      "-OmK9gqv2N4y7_PR-8Sy_miercuri, 25.02.2026, 16:18:19",
+      "-OmNnZD35JWh-kHsPn5y_joi, 26.02.2026, 09:15:17",
+      "-OmO-QDEkA37o3iYZXBz_joi, 26.02.2026, 10:11:01",
+      "-OmOALO0L14dYJ5YjPXz_joi, 26.02.2026, 10:59:01",
+      "-OmOo588yAUY6QNA1rbT_joi, 26.02.2026, 13:58:08",
+      "-OmOp4L1firyjocgKJq2_joi, 26.02.2026, 14:00:45",
+      "-OmPIF6h3BxV-_qR5TEd_joi, 26.02.2026, 14:11:38",
+      "-OmPN9ahLRJp6co-uf6r_joi, 26.02.2026, 16:30:25",
+      "-OmPVQziv3-V1z2f_1UO_joi, 26.02.2026, 17:11:16",
+      "-OmT0IqWZkYMV_jMM_3C_vineri, 27.02.2026, 09:33:21",
+      "-OmT1Wmz94zJbm0ss0pO_vineri, 27.02.2026, 09:39:10",
+      "-OmT4fRmGG6IabdY8dHg_vineri, 27.02.2026, 09:49:40",
+      "-OmT8PzwlUaooLhU4OjD_vineri, 27.02.2026, 10:09:06",
+      "-OmTGuIVhFh5FoZpF92X_vineri, 27.02.2026, 10:14:22",
+      "-OmTJI9gxii37tiwk0oD_vineri, 27.02.2026, 10:47:32",
+      "-OmTMeJcTpyHO8scqUrh_vineri, 27.02.2026, 11:11:47",
+      "-OmTU2J5Bpzf74Dpvp5-_vineri, 27.02.2026, 11:40:38",
+      "-OmTcxlcPkREg_eAk3CR_vineri, 27.02.2026, 12:26:43",
+      "-OmUHrCOYRzAYwkXjb45_vineri, 27.02.2026, 15:29:55",
+      "-OmUIYQQ-pL-GlL39VdG_vineri, 27.02.2026, 15:31:57",
+      "-OmUIikvb5-mIYFQ34-G_vineri, 27.02.2026, 15:33:55",
+      "-OmUIxAggATtZbiiJs2t_vineri, 27.02.2026, 15:34:50",
+      "-OmUJTRswHiZOug8gmoK_vineri, 27.02.2026, 15:36:34",
+      "-OmUOQZGAEPmMDN4b1gI_vineri, 27.02.2026, 15:56:43",
+      "-OmUP8yR6xmecXOvhhTC_vineri, 27.02.2026, 16:01:45",
+      "-OmYsvy7qfeWOvPWiizF_sâmbătă, 28.02.2026, 12:54:29"
+    ],
+    "stoc_dupa_vanzare": 661.0498,
+    "stoc_initial": 668.5498,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 8475,
+    "tvaAmount": 0,
+    "updated": 1773410902734
+  },
+  "-OnbWwT5O65gWvfe_Qjv": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "RAZVAN VINCENT VAN GOGH",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 20,
+          "item": {
+            "bucati": 241,
+            "created": -1,
+            "key": "4cec4f5a-bb92-4002-9728-66f713def756",
+            "metriCubi": 6.025,
+            "product": {
+              "descriere": "S25x4m",
+              "id": "4cec4f5a-bb92-4002-9728-66f713def756",
+              "inaltime": 0.025,
+              "label": "Scandura  (S25x4m)",
+              "latime": 0.25,
+              "lungime": 4,
+              "nume": "Scandura ",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.025
+            },
+            "productName": "Scandura "
+          },
+          "mc": 0.5,
+          "pret": 600,
+          "pret_buc": 30,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773223097047,
+    "deletedAt": 1773410962297,
+    "incasat": false,
+    "itemsString": "Scandura (S25x4m)",
+    "key": "-OnRKP2LmfapP_L95mc2",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 0.5,
+    "ordersUpdated": [
+      "-OnRLy__XkVWhkNhaGEe_miercuri, 11.03.2026, 12:03:56",
+      "-OnRPtj1JudT22iXCX20_miercuri, 11.03.2026, 12:22:16",
+      "-OnRoupgVwBwYaLJ0ktc_miercuri, 11.03.2026, 14:12:02",
+      "-OnRsSWcoJDlRQOiw3X9_miercuri, 11.03.2026, 14:16:55",
+      "-OnRvBCs_jmjx8yEDofV_miercuri, 11.03.2026, 14:43:25",
+      "-OnS-sYLsYzYS-8SOozT_miercuri, 11.03.2026, 15:08:18",
+      "-OnS1eN8Fp6qisFL_bh7_miercuri, 11.03.2026, 15:16:16",
+      "-OnSMEcLprSmZ2_yqiqo_miercuri, 11.03.2026, 16:44:08",
+      "-OnWWve2IncISmsp1Leq_joi, 12.03.2026, 12:10:58",
+      "-OnWXD2aciYJPFoKaTZZ_joi, 12.03.2026, 12:12:20",
+      "-OnWXJyk9Dh95XYKy3kZ_joi, 12.03.2026, 12:12:54",
+      "-OnWXmcXDPlVrFuloSJ6_joi, 12.03.2026, 12:14:09",
+      "-OnWYtYCYyZLrBTLHFat_joi, 12.03.2026, 12:18:10",
+      "-OnWZ9h5MNEwI-bCwpn0_joi, 12.03.2026, 12:20:55",
+      "-OnWZMvi7WePPFLkwhas_joi, 12.03.2026, 12:21:44",
+      "-OnWZid8NxFXBlBzVUfc_joi, 12.03.2026, 12:23:09",
+      "-OnWwYD5qXkHYRbB-n93_joi, 12.03.2026, 14:07:38",
+      "-OnX-lDw1VzxpKHOWhI-_joi, 12.03.2026, 14:25:40",
+      "-OnX1VVmyQzFxLWtI5Xl_joi, 12.03.2026, 14:27:35",
+      "-OnXCk2PKeYzoLDuUkob_joi, 12.03.2026, 15:22:16",
+      "-OnXDB2RzwsYNQ1o4Wzp_joi, 12.03.2026, 15:23:03",
+      "-OnXMsNoBnfq_wFenR_1_joi, 12.03.2026, 15:40:35",
+      "-OnXNP-0KphQurh-AMfY_joi, 12.03.2026, 16:08:23",
+      "-OnXQMUJGG-xa9oe4_Qm_joi, 12.03.2026, 16:20:21",
+      "-OnXQi06d_-t-mAicV-F_joi, 12.03.2026, 16:22:37",
+      "-OnXTEqACxhEbEkCMZBh_joi, 12.03.2026, 16:25:11",
+      "-OnaOBDK29ciA4pzCkLD_vineri, 13.03.2026, 10:51:18",
+      "-OnaQE-iEc6Ox-S92JoK_vineri, 13.03.2026, 10:53:12",
+      "-OnaoUJtVzAlGMyxnUBe_vineri, 13.03.2026, 12:48:19",
+      "-OnatE3rnnxEDHQMFsAK_vineri, 13.03.2026, 13:11:12",
+      "-Onb-DUPaJLkk70PS2PO_vineri, 13.03.2026, 13:40:47",
+      "-Onb-LzLrB8lRcHv4DfQ_vineri, 13.03.2026, 13:42:13",
+      "-Onb0rfHv0As_IfKD4h2_vineri, 13.03.2026, 13:48:48",
+      "-OnbDpAJnd-QoJXKLp3__vineri, 13.03.2026, 14:45:41"
+    ],
+    "stoc_dupa_vanzare": 678.3407,
+    "stoc_initial": 678.8407,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 600,
+    "tvaAmount": 0,
+    "updated": 1773410962246
+  },
+  "-OnbbyBJBCcKmhT4anOA": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 4498,
+        "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+        "metriCubi": 67.47,
+        "product": {
+          "descriere": "S15x4m  ",
+          "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+          "inaltime": 0.025,
+          "label": "Scandura (S15x4m  )",
+          "latime": 0.15,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.015
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 4529,
+        "created": -1,
+        "key": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+        "metriCubi": 67.935,
+        "product": {
+          "descriere": "S15x4m  ",
+          "id": "3c51fc73-dce8-42b6-bc52-31787a4f8418",
+          "inaltime": 0.025,
+          "label": "Scandura (S15x4m  )",
+          "latime": 0.15,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.015
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773407242310,
+    "deletedAt": 1773412542215,
+    "key": "-OnbIlQsZ1hIcijOK7nN",
+    "metri_cubi": 0.465,
+    "stoc_final": 651.5176,
+    "stoc_initial": 651.9826,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbyTqsRFW-98Hfn5J": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 251,
+        "key": "451129dc-8a81-4a07-963f-367e4cd50719",
+        "metriCubi": 11.295,
+        "product": {
+          "descriere": "5x15x6m",
+          "id": "451129dc-8a81-4a07-963f-367e4cd50719",
+          "inaltime": 0.15,
+          "label": "Clesti (5x15x6m)",
+          "latime": 0.05,
+          "lungime": 6,
+          "nume": "Clesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.045
+        },
+        "productName": "Clesti"
+      },
+      "old_stock_item": {
+        "bucati": 246,
+        "created": -1,
+        "key": "451129dc-8a81-4a07-963f-367e4cd50719",
+        "metriCubi": 11.07,
+        "product": {
+          "descriere": "5x15x6m",
+          "id": "451129dc-8a81-4a07-963f-367e4cd50719",
+          "inaltime": 0.15,
+          "label": "Clesti (5x15x6m)",
+          "latime": 0.05,
+          "lungime": 6,
+          "nume": "Clesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.045
+        },
+        "productName": "Clesti"
+      }
+    },
+    "date": 1773406451590,
+    "deletedAt": 1773412543401,
+    "key": "-OnbFkighEaNmgfRgYEe",
+    "metri_cubi": 0.225,
+    "stoc_final": 651.9826,
+    "stoc_initial": 651.7576,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbyhviiEA0ez6EAJJ": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 2358,
+        "key": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+        "metriCubi": 14.148,
+        "product": {
+          "descriere": "3x5x4m",
+          "id": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+          "inaltime": 0.05,
+          "label": "Leturi (3x5x4m)",
+          "latime": 0.03,
+          "lungime": 4,
+          "nume": "Leturi",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.006
+        },
+        "productName": "Leturi"
+      },
+      "old_stock_item": {
+        "bucati": 2402,
+        "created": -1,
+        "key": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+        "metriCubi": 14.412,
+        "product": {
+          "descriere": "3x5x4m",
+          "id": "4d0440ed-4466-4b19-bcde-82e13db75e6a",
+          "inaltime": 0.05,
+          "label": "Leturi (3x5x4m)",
+          "latime": 0.03,
+          "lungime": 4,
+          "nume": "Leturi",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.006
+        },
+        "productName": "Leturi"
+      }
+    },
+    "date": 1773405902088,
+    "deletedAt": 1773412544366,
+    "key": "-OnbDfJJ5xOYLiPjeMFp",
+    "metri_cubi": 0.264,
+    "stoc_final": 651.8076,
+    "stoc_initial": 652.0716,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbbyv02WjO_3NpCjTA": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 1872,
+        "key": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+        "metriCubi": 18.72,
+        "product": {
+          "descriere": "S10x4m",
+          "id": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+          "inaltime": 0.025,
+          "label": "Scandura (S10x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.01
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 1856,
+        "created": -1,
+        "key": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+        "metriCubi": 18.56,
+        "product": {
+          "descriere": "S10x4m",
+          "id": "71ee69f0-e6ea-412c-987f-ba862289ebfc",
+          "inaltime": 0.025,
+          "label": "Scandura (S10x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.01
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773405895167,
+    "deletedAt": 1773412545203,
+    "key": "-OnbDcJpRglIazPKaVFM",
+    "metri_cubi": 0.16,
+    "stoc_final": 652.0716,
+    "stoc_initial": 651.9116,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbbz5w7ZCtBeoDSt_F": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 1203,
+        "key": "9eb8f621-3373-4c5a-ae3d-33aa70dd0a8a",
+        "metriCubi": 14.436,
+        "product": {
+          "descriere": "S12x4m",
+          "id": "9eb8f621-3373-4c5a-ae3d-33aa70dd0a8a",
+          "inaltime": 0.025,
+          "label": "Scandura  (S12x4m)",
+          "latime": 0.12,
+          "lungime": 4,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.012
+        },
+        "productName": "Scandura "
+      },
+      "old_stock_item": {
+        "bucati": 1219,
+        "created": -1,
+        "key": "9eb8f621-3373-4c5a-ae3d-33aa70dd0a8a",
+        "metriCubi": 14.628,
+        "product": {
+          "descriere": "S12x4m",
+          "id": "9eb8f621-3373-4c5a-ae3d-33aa70dd0a8a",
+          "inaltime": 0.025,
+          "label": "Scandura  (S12x4m)",
+          "latime": 0.12,
+          "lungime": 4,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.012
+        },
+        "productName": "Scandura "
+      }
+    },
+    "date": 1773405884030,
+    "deletedAt": 1773412545967,
+    "key": "-OnbD_iZbCYEbJaiG1Gj",
+    "metri_cubi": 0.192,
+    "stoc_final": 651.9116,
+    "stoc_initial": 652.1036,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzGgR3QEL2cLf_0Q": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 1122,
+        "key": "19781dd4-0fce-4469-ad64-dc9379bc129c",
+        "metriCubi": 19.074,
+        "product": {
+          "descriere": "S17x4m",
+          "id": "19781dd4-0fce-4469-ad64-dc9379bc129c",
+          "inaltime": 0.025,
+          "label": "Scandura (S17x4m)",
+          "latime": 0.17,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.017
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 1120,
+        "created": -1,
+        "key": "19781dd4-0fce-4469-ad64-dc9379bc129c",
+        "metriCubi": 19.040000000000003,
+        "product": {
+          "descriere": "S17x4m",
+          "id": "19781dd4-0fce-4469-ad64-dc9379bc129c",
+          "inaltime": 0.025,
+          "label": "Scandura (S17x4m)",
+          "latime": 0.17,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.017
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773405874583,
+    "deletedAt": 1773412546655,
+    "key": "-OnbDYJuTvcW0O-WKEdx",
+    "metri_cubi": 0.034,
+    "stoc_final": 652.1036,
+    "stoc_initial": 652.0696,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzR8D5M85bGF9cba": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 608,
+        "key": "cd669f34-deaa-495e-b15a-8a8e05b6d3f0",
+        "metriCubi": 30.4,
+        "product": {
+          "descriere": "10x10x5m",
+          "id": "cd669f34-deaa-495e-b15a-8a8e05b6d3f0",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x5m)",
+          "latime": 0.1,
+          "lungime": 5,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Mini Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 610,
+        "created": -1,
+        "key": "cd669f34-deaa-495e-b15a-8a8e05b6d3f0",
+        "metriCubi": 30.5,
+        "product": {
+          "descriere": "10x10x5m",
+          "id": "cd669f34-deaa-495e-b15a-8a8e05b6d3f0",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x5m)",
+          "latime": 0.1,
+          "lungime": 5,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Mini Coarne"
+      }
+    },
+    "date": 1773405863655,
+    "deletedAt": 1773412547323,
+    "key": "-OnbDVsYWChlZ6khLEAR",
+    "metri_cubi": 0.1,
+    "stoc_final": 652.0696,
+    "stoc_initial": 652.1696,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzapG4GA3DFRW3A_": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 597,
+        "key": "bc98780c-326c-42c7-b29b-533806127fe7",
+        "metriCubi": 22.3875,
+        "product": {
+          "descriere": "5x15x5m",
+          "id": "bc98780c-326c-42c7-b29b-533806127fe7",
+          "inaltime": 0.15,
+          "label": "CClesti (5x15x5m)",
+          "latime": 0.05,
+          "lungime": 5,
+          "nume": "CClesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.0375
+        },
+        "productName": "CClesti"
+      },
+      "old_stock_item": {
+        "bucati": 594,
+        "created": -1,
+        "key": "bc98780c-326c-42c7-b29b-533806127fe7",
+        "metriCubi": 22.275,
+        "product": {
+          "descriere": "5x15x5m",
+          "id": "bc98780c-326c-42c7-b29b-533806127fe7",
+          "inaltime": 0.15,
+          "label": "CClesti (5x15x5m)",
+          "latime": 0.05,
+          "lungime": 5,
+          "nume": "CClesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.0375
+        },
+        "productName": "CClesti"
+      }
+    },
+    "date": 1773405854510,
+    "deletedAt": 1773412548008,
+    "key": "-OnbDTdw_YMCIt9V1fCY",
+    "metri_cubi": 0.1125,
+    "stoc_final": 652.1696,
+    "stoc_initial": 652.0571,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzkdGDxGKygCPWep": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 469,
+        "key": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+        "metriCubi": 14.07,
+        "product": {
+          "descriere": "5x15x4m",
+          "id": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+          "inaltime": 0.15,
+          "label": "Clesti (5x15x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Clesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.03
+        },
+        "productName": "Clesti"
+      },
+      "old_stock_item": {
+        "bucati": 471,
+        "created": -1,
+        "key": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+        "metriCubi": 14.129999999999999,
+        "product": {
+          "descriere": "5x15x4m",
+          "id": "5434cbbb-8a31-4a8c-b5dc-bb555ecf4354",
+          "inaltime": 0.15,
+          "label": "Clesti (5x15x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Clesti",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.03
+        },
+        "productName": "Clesti"
+      }
+    },
+    "date": 1773405831062,
+    "deletedAt": 1773412548636,
+    "key": "-OnbDO0QSGA4vflwKDNV",
+    "metri_cubi": 0.06,
+    "stoc_final": 652.0571,
+    "stoc_initial": 652.1171,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzsYQ2q17RabXc9_": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 445,
+        "key": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+        "metriCubi": 8.9,
+        "product": {
+          "descriere": "5x10x4m",
+          "id": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+          "inaltime": 0.1,
+          "label": "Rigle (5x10x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Rigle",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.02
+        },
+        "productName": "Rigle"
+      },
+      "old_stock_item": {
+        "bucati": 465,
+        "created": -1,
+        "key": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+        "metriCubi": 9.3,
+        "product": {
+          "descriere": "5x10x4m",
+          "id": "a1a0e79d-140f-40f3-9304-054a7e5744ed",
+          "inaltime": 0.1,
+          "label": "Rigle (5x10x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Rigle",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.02
+        },
+        "productName": "Rigle"
+      }
+    },
+    "date": 1773405812679,
+    "deletedAt": 1773412549141,
+    "key": "-OnbDJCPFhf_wiRV9r1m",
+    "metri_cubi": 0.4,
+    "stoc_final": 652.1171,
+    "stoc_initial": 652.5171,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbbzzGebLq1Jou1X4l": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 403,
+        "key": "6ccebb34-87ff-4e9e-ae9b-c388304c06bd",
+        "metriCubi": 16.12,
+        "product": {
+          "descriere": "5x20x4m",
+          "id": "6ccebb34-87ff-4e9e-ae9b-c388304c06bd",
+          "inaltime": 0.2,
+          "label": "Fosla (5x20x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Fosla",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.04
+        },
+        "productName": "Fosla"
+      },
+      "old_stock_item": {
+        "bucati": 411,
+        "created": -1,
+        "key": "6ccebb34-87ff-4e9e-ae9b-c388304c06bd",
+        "metriCubi": 16.44,
+        "product": {
+          "descriere": "5x20x4m",
+          "id": "6ccebb34-87ff-4e9e-ae9b-c388304c06bd",
+          "inaltime": 0.2,
+          "label": "Fosla (5x20x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Fosla",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.04
+        },
+        "productName": "Fosla"
+      }
+    },
+    "date": 1773405802408,
+    "deletedAt": 1773412549571,
+    "key": "-OnbDH8_Au0hpO8qPAiL",
+    "metri_cubi": 0.32,
+    "stoc_final": 652.5171,
+    "stoc_initial": 652.8371,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc-4SPZJEtWlX-ltJ": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 356,
+        "key": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+        "metriCubi": 21.36,
+        "product": {
+          "descriere": "10x15x4m",
+          "id": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.06
+        },
+        "productName": "Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 359,
+        "created": -1,
+        "key": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+        "metriCubi": 21.54,
+        "product": {
+          "descriere": "10x15x4m",
+          "id": "05b43be3-a45a-44d0-9625-0eee781fcbe0",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.06
+        },
+        "productName": "Coarne"
+      }
+    },
+    "date": 1773405794968,
+    "deletedAt": 1773412549968,
+    "key": "-OnbDEzALH40JuunC4yd",
+    "metri_cubi": 0.18,
+    "stoc_final": 652.8371,
+    "stoc_initial": 653.0171,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc-MyBGOhWaM87UHC": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 354,
+        "key": "a0762daa-0bf1-47cd-b647-5090922be66c",
+        "metriCubi": 31.86,
+        "product": {
+          "descriere": "10x15x6m",
+          "id": "a0762daa-0bf1-47cd-b647-5090922be66c",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.09
+        },
+        "productName": "Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 350,
+        "created": -1,
+        "key": "a0762daa-0bf1-47cd-b647-5090922be66c",
+        "metriCubi": 31.5,
+        "product": {
+          "descriere": "10x15x6m",
+          "id": "a0762daa-0bf1-47cd-b647-5090922be66c",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.09
+        },
+        "productName": "Coarne"
+      }
+    },
+    "date": 1773405783530,
+    "deletedAt": 1773412551153,
+    "key": "-OnbDCCKG4PkTeA3bwet",
+    "metri_cubi": 0.36,
+    "stoc_final": 653.0171,
+    "stoc_initial": 652.6571,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc-VZde2Sd4AAr0dS": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 283,
+        "key": "2625cd50-1462-4aa9-a641-06bf3551359a",
+        "metriCubi": 14.15,
+        "product": {
+          "descriere": "5x25x4m",
+          "id": "2625cd50-1462-4aa9-a641-06bf3551359a",
+          "inaltime": 0.25,
+          "label": "Fosla (5x25x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Fosla",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Fosla"
+      },
+      "old_stock_item": {
+        "bucati": 285,
+        "created": -1,
+        "key": "2625cd50-1462-4aa9-a641-06bf3551359a",
+        "metriCubi": 14.25,
+        "product": {
+          "descriere": "5x25x4m",
+          "id": "2625cd50-1462-4aa9-a641-06bf3551359a",
+          "inaltime": 0.25,
+          "label": "Fosla (5x25x4m)",
+          "latime": 0.05,
+          "lungime": 4,
+          "nume": "Fosla",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Fosla"
+      }
+    },
+    "date": 1773405751815,
+    "deletedAt": 1773412551702,
+    "key": "-OnbD5-gNnItQ74TSFi1",
+    "metri_cubi": 0.1,
+    "stoc_final": 652.6571,
+    "stoc_initial": 652.7571,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc-fhU5xn1F2hKQev": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 256,
+        "key": "74a649e9-c65e-4f27-a432-636b61a690c3",
+        "metriCubi": 10.24,
+        "product": {
+          "descriere": "10x10x4m",
+          "id": "74a649e9-c65e-4f27-a432-636b61a690c3",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.04
+        },
+        "productName": "Mini Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 253,
+        "created": -1,
+        "key": "74a649e9-c65e-4f27-a432-636b61a690c3",
+        "metriCubi": 10.120000000000001,
+        "product": {
+          "descriere": "10x10x4m",
+          "id": "74a649e9-c65e-4f27-a432-636b61a690c3",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.04
+        },
+        "productName": "Mini Coarne"
+      }
+    },
+    "date": 1773405628974,
+    "deletedAt": 1773412552416,
+    "key": "-OnbCbqxldbE-JCpqxMg",
+    "metri_cubi": 0.12,
+    "stoc_final": 652.7571,
+    "stoc_initial": 652.6371,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc02JsNoOY7Q1flCT": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 262,
+        "key": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+        "metriCubi": 19.65,
+        "product": {
+          "descriere": "10x15x5m",
+          "id": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x5m)",
+          "latime": 0.1,
+          "lungime": 5,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.075
+        },
+        "productName": "Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 257,
+        "created": -1,
+        "key": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+        "metriCubi": 19.275,
+        "product": {
+          "descriere": "10x15x5m",
+          "id": "6c9481b7-6ece-4ea9-9fab-4c9010e12c04",
+          "inaltime": 0.15,
+          "label": "Coarne (10x15x5m)",
+          "latime": 0.1,
+          "lungime": 5,
+          "nume": "Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.075
+        },
+        "productName": "Coarne"
+      }
+    },
+    "date": 1773405593215,
+    "deletedAt": 1773412553926,
+    "key": "-OnbCU9wUV8ORdMTMq8d",
+    "metri_cubi": 0.375,
+    "stoc_final": 652.6371,
+    "stoc_initial": 652.2621,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0CzKheD9y_XDHWI": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 189,
+        "key": "4cec4f5a-bb92-4002-9728-66f713def756",
+        "metriCubi": 4.725,
+        "product": {
+          "descriere": "S25x4m",
+          "id": "4cec4f5a-bb92-4002-9728-66f713def756",
+          "inaltime": 0.025,
+          "label": "Scandura  (S25x4m)",
+          "latime": 0.25,
+          "lungime": 4,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.025
+        },
+        "productName": "Scandura "
+      },
+      "old_stock_item": {
+        "bucati": 193,
+        "created": -1,
+        "key": "4cec4f5a-bb92-4002-9728-66f713def756",
+        "metriCubi": 4.825,
+        "product": {
+          "descriere": "S25x4m",
+          "id": "4cec4f5a-bb92-4002-9728-66f713def756",
+          "inaltime": 0.025,
+          "label": "Scandura  (S25x4m)",
+          "latime": 0.25,
+          "lungime": 4,
+          "nume": "Scandura ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.025
+        },
+        "productName": "Scandura "
+      }
+    },
+    "date": 1773405556872,
+    "deletedAt": 1773412554609,
+    "key": "-OnbCKin4YI4JeaVv1d_",
+    "metri_cubi": 0.1,
+    "stoc_final": 652.2621,
+    "stoc_initial": 652.3621,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0K6j52ijfPSzsNW": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 159,
+        "key": "41928b84-f1e6-4d3f-8ba3-6b759bca9187",
+        "metriCubi": 3.498,
+        "product": {
+          "descriere": "S22x4m",
+          "id": "41928b84-f1e6-4d3f-8ba3-6b759bca9187",
+          "inaltime": 0.025,
+          "label": "Scandura (S22x4m)",
+          "latime": 0.22,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.022
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 167,
+        "created": -1,
+        "key": "41928b84-f1e6-4d3f-8ba3-6b759bca9187",
+        "metriCubi": 3.674,
+        "product": {
+          "descriere": "S22x4m",
+          "id": "41928b84-f1e6-4d3f-8ba3-6b759bca9187",
+          "inaltime": 0.025,
+          "label": "Scandura (S22x4m)",
+          "latime": 0.22,
+          "lungime": 4,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.022
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773405545111,
+    "deletedAt": 1773412555065,
+    "key": "-OnbCIEK9QdwYqBFtJWm",
+    "metri_cubi": 0.176,
+    "stoc_final": 652.3621,
+    "stoc_initial": 652.5381,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0SzDhLjDPSma2ao": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 159,
+        "key": "ad257985-5590-45a9-9da6-2a895d7050eb",
+        "metriCubi": 14.31,
+        "product": {
+          "descriere": "Nedimensionata 3m",
+          "id": "ad257985-5590-45a9-9da6-2a895d7050eb",
+          "inaltime": 0.025,
+          "label": "Scandura la randuri (Nedimensionata 3m)",
+          "latime": 1.2,
+          "lungime": 3,
+          "nume": "Scandura la randuri",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.09
+        },
+        "productName": "Scandura la randuri"
+      },
+      "old_stock_item": {
+        "bucati": 156,
+        "created": -1,
+        "key": "ad257985-5590-45a9-9da6-2a895d7050eb",
+        "metriCubi": 14.04,
+        "product": {
+          "descriere": "Nedimensionata 3m",
+          "id": "ad257985-5590-45a9-9da6-2a895d7050eb",
+          "inaltime": 0.025,
+          "label": "Scandura la randuri (Nedimensionata 3m)",
+          "latime": 1.2,
+          "lungime": 3,
+          "nume": "Scandura la randuri",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.09
+        },
+        "productName": "Scandura la randuri"
+      }
+    },
+    "date": 1773405536967,
+    "deletedAt": 1773412555634,
+    "key": "-OnbCFjArYT_66raR80L",
+    "metri_cubi": 0.27,
+    "stoc_final": 652.5381,
+    "stoc_initial": 652.2681,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0_ttXXqFdmw6eZy": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 144,
+        "key": "c5d8c205-7c06-4d40-86c2-9c8f81396ff1",
+        "metriCubi": 0.72,
+        "product": {
+          "descriere": "S10x2m",
+          "id": "c5d8c205-7c06-4d40-86c2-9c8f81396ff1",
+          "inaltime": 0.025,
+          "label": "Scandura (S10x2m)",
+          "latime": 0.1,
+          "lungime": 2,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.005
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 140,
+        "created": -1,
+        "key": "c5d8c205-7c06-4d40-86c2-9c8f81396ff1",
+        "metriCubi": 0.7000000000000001,
+        "product": {
+          "descriere": "S10x2m",
+          "id": "c5d8c205-7c06-4d40-86c2-9c8f81396ff1",
+          "inaltime": 0.025,
+          "label": "Scandura (S10x2m)",
+          "latime": 0.1,
+          "lungime": 2,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.005
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773405531439,
+    "deletedAt": 1773412556140,
+    "key": "-OnbCEWIXqojYyD1N-mJ",
+    "metri_cubi": 0.02,
+    "stoc_final": 652.2681,
+    "stoc_initial": 652.2481,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0iZ4z8cU5diLI5b": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 126,
+        "key": "a474bb26-1ed1-4dda-8bca-e9ad37d057d5",
+        "metriCubi": 18.9,
+        "product": {
+          "descriere": "Nedimensionata 5m ",
+          "id": "a474bb26-1ed1-4dda-8bca-e9ad37d057d5",
+          "inaltime": 0.025,
+          "label": "Scandura la randuri (Nedimensionata 5m )",
+          "latime": 1.2,
+          "lungime": 5,
+          "nume": "Scandura la randuri",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.15
+        },
+        "productName": "Scandura la randuri"
+      },
+      "old_stock_item": {
+        "bucati": 130,
+        "created": -1,
+        "key": "a474bb26-1ed1-4dda-8bca-e9ad37d057d5",
+        "metriCubi": 19.5,
+        "product": {
+          "descriere": "Nedimensionata 5m ",
+          "id": "a474bb26-1ed1-4dda-8bca-e9ad37d057d5",
+          "inaltime": 0.025,
+          "label": "Scandura la randuri (Nedimensionata 5m )",
+          "latime": 1.2,
+          "lungime": 5,
+          "nume": "Scandura la randuri",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.15
+        },
+        "productName": "Scandura la randuri"
+      }
+    },
+    "date": 1773405523135,
+    "deletedAt": 1773412556695,
+    "key": "-OnbCCd2KGPgabVJqKmS",
+    "metri_cubi": 0.6,
+    "stoc_final": 652.2481,
+    "stoc_initial": 652.8481,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0pXTwXPELYSALoz": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 127,
+        "key": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+        "metriCubi": 6.096,
+        "product": {
+          "descriere": "10x12x4m",
+          "id": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+          "inaltime": 0.12,
+          "label": "Capriori (10x12x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Capriori",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.048
+        },
+        "productName": "Capriori"
+      },
+      "old_stock_item": {
+        "bucati": 128,
+        "created": -1,
+        "key": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+        "metriCubi": 6.144,
+        "product": {
+          "descriere": "10x12x4m",
+          "id": "1fa04cc0-4d5f-48cd-9aba-84da1a59d91b",
+          "inaltime": 0.12,
+          "label": "Capriori (10x12x4m)",
+          "latime": 0.1,
+          "lungime": 4,
+          "nume": "Capriori",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.048
+        },
+        "productName": "Capriori"
+      }
+    },
+    "date": 1773405517040,
+    "deletedAt": 1773412557141,
+    "key": "-OnbCB69pKKUYWRG4Mrd",
+    "metri_cubi": 0.048,
+    "stoc_final": 652.8481,
+    "stoc_initial": 652.8961,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc0xL1gMtVuX5k8w5": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 117,
+        "key": "0d90716c-1046-4551-b6a9-edfe8552fb82",
+        "metriCubi": 5.85,
+        "product": {
+          "descriere": "5x20x5m",
+          "id": "0d90716c-1046-4551-b6a9-edfe8552fb82",
+          "inaltime": 0.2,
+          "label": "Fosla  (5x20x5m)",
+          "latime": 0.05,
+          "lungime": 5,
+          "nume": "Fosla ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Fosla "
+      },
+      "old_stock_item": {
+        "bucati": 118,
+        "created": -1,
+        "key": "0d90716c-1046-4551-b6a9-edfe8552fb82",
+        "metriCubi": 5.9,
+        "product": {
+          "descriere": "5x20x5m",
+          "id": "0d90716c-1046-4551-b6a9-edfe8552fb82",
+          "inaltime": 0.2,
+          "label": "Fosla  (5x20x5m)",
+          "latime": 0.05,
+          "lungime": 5,
+          "nume": "Fosla ",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.05
+        },
+        "productName": "Fosla "
+      }
+    },
+    "date": 1773405510662,
+    "deletedAt": 1773412557640,
+    "key": "-OnbC9XJogGkZDm_Cv7I",
+    "metri_cubi": 0.05,
+    "stoc_final": 652.8961,
+    "stoc_initial": 652.9461,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc13xq_0ZAqMzXBX5": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 60,
+        "key": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+        "metriCubi": 3.6,
+        "product": {
+          "descriere": "10x10x6m",
+          "id": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.06
+        },
+        "productName": "Mini Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 61,
+        "created": -1,
+        "key": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+        "metriCubi": 3.6599999999999997,
+        "product": {
+          "descriere": "10x10x6m",
+          "id": "890e09e3-3f12-4de4-bb13-9ccce2d363a6",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x6m)",
+          "latime": 0.1,
+          "lungime": 6,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.06
+        },
+        "productName": "Mini Coarne"
+      }
+    },
+    "date": 1773405486031,
+    "deletedAt": 1773412558128,
+    "key": "-OnbC3fo_lCulGhzipZW",
+    "metri_cubi": 0.06,
+    "stoc_final": 652.9461,
+    "stoc_initial": 653.0061,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc1JiWJ6q_xF2yavp": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 39,
+        "key": "3ba6abaf-a74c-4c6a-9274-a87c37071caa",
+        "metriCubi": 2.73,
+        "product": {
+          "descriere": "10x10x7m",
+          "id": "3ba6abaf-a74c-4c6a-9274-a87c37071caa",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x7m)",
+          "latime": 0.1,
+          "lungime": 7,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.07
+        },
+        "productName": "Mini Coarne"
+      },
+      "old_stock_item": {
+        "bucati": 36,
+        "created": -1,
+        "key": "3ba6abaf-a74c-4c6a-9274-a87c37071caa",
+        "metriCubi": 2.5200000000000005,
+        "product": {
+          "descriere": "10x10x7m",
+          "id": "3ba6abaf-a74c-4c6a-9274-a87c37071caa",
+          "inaltime": 0.1,
+          "label": "Mini Coarne (10x10x7m)",
+          "latime": 0.1,
+          "lungime": 7,
+          "nume": "Mini Coarne",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.07
+        },
+        "productName": "Mini Coarne"
+      }
+    },
+    "date": 1773405467246,
+    "deletedAt": 1773412559137,
+    "key": "-OnbC-0QuXzydlYtLA3H",
+    "metri_cubi": 0.21,
+    "stoc_final": 653.0061,
+    "stoc_initial": 652.7961,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-Onbc1yWKoBUXSmZWuct": {
+    "changed_item": {
+      "new_stock_item": {
+        "bucati": 0,
+        "key": "5d1de4d3-1062-4e24-869b-2ef96aac7915",
+        "metriCubi": 0,
+        "product": {
+          "descriere": "S12x3m",
+          "id": "5d1de4d3-1062-4e24-869b-2ef96aac7915",
+          "inaltime": 0.025,
+          "label": "Scandura (S12x3m)",
+          "latime": 0.12,
+          "lungime": 3,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.009
+        },
+        "productName": "Scandura"
+      },
+      "old_stock_item": {
+        "bucati": 23,
+        "created": -1,
+        "key": "5d1de4d3-1062-4e24-869b-2ef96aac7915",
+        "metriCubi": 0.207,
+        "product": {
+          "descriere": "S12x3m",
+          "id": "5d1de4d3-1062-4e24-869b-2ef96aac7915",
+          "inaltime": 0.025,
+          "label": "Scandura (S12x3m)",
+          "latime": 0.12,
+          "lungime": 3,
+          "nume": "Scandura",
+          "pret": 0,
+          "unit": "buc",
+          "volum": 0.009
+        },
+        "productName": "Scandura"
+      }
+    },
+    "date": 1773405453351,
+    "deletedAt": 1773412561811,
+    "key": "-OnbBxaM3Zxg7gOBlUYj",
+    "metri_cubi": 0.207,
+    "stoc_final": 652.7961,
+    "stoc_initial": 653.0031,
+    "stock_operation": "MODIFICARE_TABEL_STOC"
+  },
+  "-OnbiXufap_PWbQRwezc": {
+    "comanda": {
+      "clientAddress": "",
+      "clientName": "BLONDU GEPIU",
+      "clientPhone": "",
+      "incasat": false,
+      "items": [
+        {
+          "bucati": 16,
+          "item": {
+            "bucati": 133,
+            "created": -1,
+            "key": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+            "metriCubi": 1.33,
+            "product": {
+              "descriere": "5x5x4m",
+              "id": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+              "inaltime": 0.05,
+              "label": "Rigle (5x5x4m)",
+              "latime": 0.05,
+              "lungime": 4,
+              "nume": "Rigle",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.01
+            },
+            "productName": "Rigle"
+          },
+          "mc": 0.16,
+          "pret": 272,
+          "pret_buc": 17,
+          "transient": false
+        },
+        {
+          "bucati": 1,
+          "item": {
+            "bucati": 133,
+            "created": -1,
+            "key": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+            "metriCubi": 1.33,
+            "product": {
+              "descriere": "5x5x4m",
+              "id": "7a0ffa81-cedb-4389-93c3-9b209182d0ad",
+              "inaltime": 0.05,
+              "label": "Rigle (5x5x4m)",
+              "latime": 0.05,
+              "lungime": 4,
+              "nume": "Rigle",
+              "pret": 0,
+              "unit": "buc",
+              "volum": 0.01
+            },
+            "productName": "Rigle"
+          },
+          "mc": 0.01,
+          "pret": 28,
+          "pret_buc": 28,
+          "transient": false
+        }
+      ],
+      "pretMC": 0,
+      "transport": 0
+    },
+    "custody": false,
+    "data": 1773402528648,
+    "deletedAt": 1773414265492,
+    "incasat": false,
+    "itemsString": "Rigle(5x5x4m), Rigle(5x5x4m)",
+    "key": "-Onb0rfHv0As_IfKD4h2",
+    "livrat": false,
+    "mcDiff": 0,
+    "mc_vanduti": 0.17,
+    "ordersUpdated": [
+      "-OnbDpAJnd-QoJXKLp3__vineri, 13.03.2026, 14:45:41",
+      "-Onbi3z9vvjH4IYwM3W1_vineri, 13.03.2026, 16:59:43"
+    ],
+    "stoc_dupa_vanzare": 646.5081,
+    "stoc_initial": 646.6781,
+    "tip": "MODIFICARE COMANDA",
+    "total_comanda": 300,
+    "tvaAmount": 0,
+    "updated": 1773414265470
+  }
+}
