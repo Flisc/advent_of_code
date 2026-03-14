@@ -29,17 +29,17 @@ from openpyxl.utils import get_column_letter
 BASE_DIR =  os.path.dirname(os.path.abspath(__file__))
 BASE_EXPORT_DIR = os.path.join(BASE_DIR, "export")
 
-# DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "tirtoader_orders_2026_FEB-export.json")
-# DEFAULT_HISTORY_FILE  = os.path.join(BASE_DIR, "tirtoader_deleted_2026_FEB-export.json")
-# DEFAULT_STOCK_FILE    = os.path.join(BASE_DIR, "stock-changes-2026-FEB-export.json")
+DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "tirtoader_orders_2026_FEB-export.json")
+DEFAULT_HISTORY_FILE  = os.path.join(BASE_DIR, "tirtoader_deleted_2026_FEB-export.json")
+DEFAULT_STOCK_FILE    = os.path.join(BASE_DIR, "stock-changes-2026-FEB-export.json")
 
-DEFAULT_ORDERS_FILE = os.path.join(BASE_DIR, "tirtoader_orders_2026_MAR-export.json")
-DEFAULT_HISTORY_FILE = os.path.join(BASE_DIR, "tirtoader_deleted_2026_MAR-export.json")
-DEFAULT_STOCK_FILE = os.path.join(BASE_DIR, "stock_changes-2026-MAR-export.json")
+# DEFAULT_ORDERS_FILE = os.path.join(BASE_DIR, "tirtoader_orders_2026_MAR-export.json")
+# DEFAULT_HISTORY_FILE = os.path.join(BASE_DIR, "tirtoader_deleted_2026_MAR-export.json")
+# DEFAULT_STOCK_FILE = os.path.join(BASE_DIR, "stock_changes-2026-MAR-export.json")
 DEFAULT_EXPORT_FILE = os.path.join(BASE_DIR, "export.xlsx")  # set None to disable export
 
 DEFAULT_PRODUCT = "Scandura (S20x4m)"  # product name to search
-DEFAULT_FROM_DATE = "2026-02-26"  # start date  (YYYY-MM-DD or DD.MM.YYYY)
+DEFAULT_FROM_DATE = "2026-02-15"  # start date  (YYYY-MM-DD or DD.MM.YYYY)
 DEFAULT_SHOW_DELETED = True  # include soft-deleted entries
 
 # ── Stock-direction logic ────────────────────────────────────────────────────
