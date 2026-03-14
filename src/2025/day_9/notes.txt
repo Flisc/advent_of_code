@@ -1,0 +1,7 @@
+attempts:
+    part 1:
+     2147473713 < s <
+
+    part 2:
+      < s
+         < s
