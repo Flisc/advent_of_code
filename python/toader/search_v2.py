@@ -27,6 +27,9 @@ from datetime import datetime, timezone
 BASE_DIR             = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "tirtoader_orders_2026_FEB-export.json")
 DEFAULT_HISTORY_FILE = os.path.join(BASE_DIR, "tirtoader_deleted_2026_MAR-export.json")
+DEFAULT_PRODUCT      = "Scandura (S20x4m)" # product name to search
+DEFAULT_FROM_DATE    = "2026-02-26"        # start date
+DEFAULT_SHOW_DELETED = True                # include soft-deleted entries
 
 # ── Stock-direction logic ────────────────────────────────────────────────────
 # tip value (lowercase) → (direction_label, sign)
@@ -98,6 +101,7 @@ def extract_entries(data, search_lower, source_label, show_deleted):
                         "bucati":      item.get("bucati"),
                         "mc":          item.get("mc"),
                         "pret":        item.get("pret"),
+                        "stoc_initial": item.get("item").get("bucati"),
                     })
                     break  # one match per item is enough
 
@@ -123,6 +127,21 @@ def extract_entries(data, search_lower, source_label, show_deleted):
         })
 
     return entries
+
+
+def parse_from_date(date_str):
+    """Parse a date string (YYYY-MM-DD or DD.MM.YYYY) into a millisecond timestamp."""
+    for fmt in ("%Y-%m-%d", "%d.%m.%Y"):
+        try:
+            dt = datetime.strptime(date_str, fmt).replace(
+                hour=0, minute=0, second=0, tzinfo=timezone.utc
+            )
+            return int(dt.timestamp() * 1000)
+        except ValueError:
+            continue
+    raise argparse.ArgumentTypeError(
+        f"Invalid date '{date_str}'. Use YYYY-MM-DD or DD.MM.YYYY"
+    )
 
 
 def search_all(orders_file, history_file, search_term, show_deleted, from_ts=None):
@@ -161,13 +180,15 @@ def colorize(sign, text):
     return f"{SIGN_COLOR.get(sign, '')}{text}{RESET}"
 
 
-def print_results(results, search_term):
+def print_results(results, search_term, from_date_str=None):
     if not results:
-        print(f"\n  No entries found for product: '{search_term}'\n")
+        from_info = f" from {from_date_str}" if from_date_str else ""
+        print(f"\n  No entries found for product: '{search_term}'{from_info}\n")
         return
 
+    from_info = f"  from {from_date_str}" if from_date_str else ""
     print(f"\n{BOLD}{'═' * 82}{RESET}")
-    print(f"{BOLD}  Chronological stock movements for: '{search_term}'  "
+    print(f"{BOLD}  Chronological stock movements for: '{search_term}'{from_info}  "
           f"({len(results)} entries){RESET}")
     print(f"{BOLD}{'═' * 82}{RESET}\n")
 
@@ -197,6 +218,7 @@ def print_results(results, search_term):
             mc_str = colorize(sign, f"{sign}{mc_val:.3f} mc")
             print(f"       Product : {p['label']}"
                   f"  | {p['bucati']} buc  | {mc_str}  | {p['pret']} RON")
+            print(f"      \t\t\tStoc : {p['stoc_initial']} BUC")
 
         stoc_info = ""
         if r["stoc_initial"] is not None and r["stoc_dupa"] is not None:
@@ -235,25 +257,37 @@ Examples:
     )
     # parser.add_argument("product",
     #                     help="Product name to search (partial, case-insensitive)")
+    parser.add_argument("product", nargs="?", default=DEFAULT_PRODUCT,
+                        help=f"Product name to search, partial/case-insensitive "
+                             f"(default: '{DEFAULT_PRODUCT}')")
     parser.add_argument("--show-deleted", action="store_true",
-                        help="Include soft-deleted entries (have deletedAt set)")
-    parser.add_argument("--orders-file",  default=DEFAULT_ORDERS_FILE,
+                        default=DEFAULT_SHOW_DELETED,
+                        help=f"Include soft-deleted entries "
+                             f"(default: {DEFAULT_SHOW_DELETED})")
+    parser.add_argument("--from-date", default=DEFAULT_FROM_DATE,
+                        type=parse_from_date, metavar="DATE",
+                        help=f"Only show entries on or after this date. "
+                             f"Formats: YYYY-MM-DD or DD.MM.YYYY "
+                             f"(default: {DEFAULT_FROM_DATE})")
+    parser.add_argument("--orders-file", default=DEFAULT_ORDERS_FILE,
                         help=f"Path to orders JSON  (default: {DEFAULT_ORDERS_FILE})")
     parser.add_argument("--history-file", default=DEFAULT_HISTORY_FILE,
                         help=f"Path to history JSON (default: {DEFAULT_HISTORY_FILE})")
 
     args = parser.parse_args()
-    product = "Scandura (S20x4m)"
-    date = "2026-02-26"
 
     results = search_all(
         orders_file=args.orders_file,
         history_file=args.history_file,
-        search_term=product,
-        show_deleted=True,
-        from_ts=date,
+        search_term=args.product,
+        show_deleted=args.show_deleted,
+        from_ts=args.from_date,
     )
-    print_results(results, product)
+    from_date_str = args.from_date and datetime.fromtimestamp(
+        args.from_date / 1000, tz=timezone.utc
+    ).strftime("%Y-%m-%d")
+
+    print_results(results, args.product, from_date_str=from_date_str)
 
 
 if __name__ == "__main__":
