@@ -26,7 +26,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 # ── Default file paths (same directory as script) ───────────────────────────
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR =  os.path.dirname(os.path.abspath(__file__))
+BASE_EXPORT_DIR = os.path.join(BASE_DIR, "export")
 
 # DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "tirtoader_orders_2026_FEB-export.json")
 # DEFAULT_HISTORY_FILE  = os.path.join(BASE_DIR, "tirtoader_deleted_2026_FEB-export.json")
@@ -592,10 +593,11 @@ Examples:
 
     if args.export_file and results:
         now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        path = f"{args.product}-istoric-stoc-{now}.xlsx"
-        export_path = os.path.join(BASE_DIR, path)
+        path = f"{args.product}-istoric-stoc-MAR-{now}.xlsx"
+        export_path = os.path.join(BASE_EXPORT_DIR, path)
+        os.makedirs(BASE_EXPORT_DIR, exist_ok=True)
         path = export_to_excel(results, args.product, from_date_str, export_path)
-        print(f"  Excel exported → {path}")
+        print(f"  Excel exported → {export_path}")
     elif args.export_file and not results:
         print("  No results to export.")
 
