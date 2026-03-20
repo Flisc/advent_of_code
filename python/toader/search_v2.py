@@ -39,6 +39,7 @@ DEFAULT_STOCK_FILE    = os.path.join(BASE_DIR, "20_03_2026", "stock-changes-MAR-
 DEFAULT_EXPORT_FILE = os.path.join(BASE_DIR, "export.xlsx")  # set None to disable export
 
 DEFAULT_PRODUCT = "Coarne (10x15x6m)"  # product name to search
+# DEFAULT_PRODUCT = "Grinzi (15x15x5m)"  # product name to search
 DEFAULT_FROM_DATE = "2026-03-01"  # start date  (YYYY-MM-DD or DD.MM.YYYY)
 DEFAULT_SHOW_DELETED = True  # include soft-deleted entries
 
@@ -47,6 +48,8 @@ DEFAULT_SHOW_DELETED = True  # include soft-deleted entries
 TIP_DIRECTION = {
     "retur comanda": ("RETUR", "+"),  # stock comes back
     "modificare comanda": ("MODIFICARE", "~"),  # neutral edit
+    "adaugare_tabel": ("MODIFICARE", "+"),  # neutral edit
+    "scadere_tabel": ("MODIFICARE", "-"),  # neutral edit
 }
 DEFAULT_HISTORY_DIRECTION = ("VANZARE", "-")  # any other tip = sale out
 
@@ -106,37 +109,66 @@ def extract_entries(data, search_lower, source_label, show_deleted):
         if not show_deleted and entry.get("deletedAt"):
             continue
 
-        comanda = entry.get("comanda", {})
-        items = comanda.get("items", [])
-        tip = entry.get("tip")  # None for plain orders
-
-        direction_label, sign = stock_direction(tip)
-
         matched_products = []
-        for item in items:
-            for name in get_product_names(item):
-                if search_lower in name.lower():
-                    label = item.get("item", {}).get("product", {}).get("label", name)
-                    matched_products.append({
-                        "productName": name,
-                        "label": label,
-                        "bucati": item.get("bucati"),
-                        "mc": item.get("mc"),
-                        "pret": item.get("pret"),
-                        "stoc_initial": item.get("item").get("bucati"),
-                    })
-                    break  # one match per item is enough
+        stock_operation = entry.get("stock_operation")
+        tip = ''
+        if stock_operation  == "MODIFICARE_TABEL_STOC":
+            item = entry.get("changed_item")
+            old_item = item.get("old_stock_item")
+            new_item = item.get("new_stock_item")
+            label = old_item['product']['label'].strip().lower()
+            # print("modificare tabel = ", label)
+            if label == search_lower:
+                print("match tabel = ", label)
+                bucati = 0
+                if old_item['bucati'] > new_item['bucati']:
+                    bucati = old_item['bucati'] - new_item['bucati']
+                    tip = 'scadere_tabel'
+                if old_item['bucati'] < new_item['bucati']:
+                    bucati = new_item['bucati'] - old_item['bucati']
+                    tip = 'adaugare_tabel'
+                print (tip, bucati)
+                direction_label, sign = stock_direction(tip)
+                matched_products.append({
+                    "productName": label,
+                    "label": label,
+                    "bucati": bucati,
+                    "mc": 0,
+                    "pret": 0,
+                    "stoc_initial": old_item['bucati'],
+                })
+        else:
+            comanda = entry.get("comanda", {})
+            items = comanda.get("items", [])
+            tip = entry.get("tip")  # None for plain orders
+
+            direction_label, sign = stock_direction(tip)
+
+            for item in items:
+                for name in get_product_names(item):
+                    if search_lower in name.lower():
+                        label = item.get("item", {}).get("product", {}).get("label", name)
+                        matched_products.append({
+                            "productName": name,
+                            "label": label,
+                            "bucati": item.get("bucati"),
+                            "mc": item.get("mc"),
+                            "pret": item.get("pret"),
+                            "stoc_initial": item.get("item").get("bucati"),
+                        })
+                        break  # one match per item is enough
 
         if not matched_products:
             continue
 
+        print ('final label ', direction_label, 'sign: ', sign)
         entries.append({
             "entry_id": entry_id,
             "source": source_label,
-            "data": entry.get("data", 0),
-            "data_str": format_ts(entry.get("data", 0)),
+            "data": entry.get("data") or entry.get("deletedAt", 0),
+            "data_str": format_ts(entry.get("data") or entry.get("deletedAt", 0)),
             "clientName": comanda.get("clientName", "—").strip() or "—",
-            "tip": tip or "—",
+            "tip": tip or "~",
             "direction_label": direction_label,
             "sign": sign,
             "total_comanda": entry.get("total_comanda"),
