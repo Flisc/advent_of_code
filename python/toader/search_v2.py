@@ -29,18 +29,29 @@ from openpyxl.utils import get_column_letter
 BASE_DIR =  os.path.dirname(os.path.abspath(__file__))
 BASE_EXPORT_DIR = os.path.join(BASE_DIR, "export")
 
-DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "20_03_2026", "tirtoader_orders_2026_MAR-export-20-03.json")
-DEFAULT_HISTORY_FILE  = os.path.join(BASE_DIR, "20_03_2026", "tirtoader_deleted_2026_MAR-export-20-03.json")
-DEFAULT_STOCK_FILE    = os.path.join(BASE_DIR, "20_03_2026", "stock-changes-MAR-export-20-03.json")
+DEFAULT_ORDERS_FILE  = os.path.join(BASE_DIR, "01_05_2026", "tirtoader_orders_2026_MAY-export.json")
+DEFAULT_HISTORY_FILE  = os.path.join(BASE_DIR, "01_05_2026", "tirtoader_deleted_2026_MAY-export.json")
+DEFAULT_STOCK_FILE    = os.path.join(BASE_DIR, "01_05_2026", "tirtoader_stock_changes_MAY-export.json")
 
 # DEFAULT_ORDERS_FILE = os.path.join(BASE_DIR, "tirtoader_orders_2026_MAR-export.json")
 # DEFAULT_HISTORY_FILE = os.path.join(BASE_DIR, "tirtoader_deleted_2026_MAR-export.json")
 # DEFAULT_STOCK_FILE = os.path.join(BASE_DIR, "stock_changes-2026-MAR-export.json")
 DEFAULT_EXPORT_FILE = os.path.join(BASE_DIR, "export.xlsx")  # set None to disable export
+# ────────────────────────────────────────────────────
+# DEFAULT_PRODUCT = "Coarne (10x15x5m)"  # product name to search
+# DEFAULT_PRODUCT = "Clesti (5x15x6m)"  # product name to search
+# DEFAULT_PRODUCT = "Leturi (3x5x3m)"  # product name to search
+# DEFAULT_PRODUCT = "Scandura (S10x4m)"  # product name to search
+# DEFAULT_PRODUCT = "Scandura (S20x4m)"  # product name to search
+# DEFAULT_PRODUCT = "CClesti (5x15x5m)"  # product name to search
+DEFAULT_PRODUCT = "Scandura (S12x4m)"  # product name to search
+# DEFAULT_PRODUCT = "Scandura (S17x4m)"  # product name to search
+# DEFAULT_PRODUCT = "Rigle (5x10x4m)"  # product name to search
+# DEFAULT_PRODUCT = "Coarne (10x15x6m)"  # product name to search
 
-DEFAULT_PRODUCT = "Coarne (10x15x6m)"  # product name to search
 # DEFAULT_PRODUCT = "Grinzi (15x15x5m)"  # product name to search
-DEFAULT_FROM_DATE = "2026-03-01"  # start date  (YYYY-MM-DD or DD.MM.YYYY)
+# ────────────────────────────────────────────────────
+DEFAULT_FROM_DATE = "2026-05-01"  # start date  (YYYY-MM-DD or DD.MM.YYYY)
 DEFAULT_SHOW_DELETED = True  # include soft-deleted entries
 
 # ── Stock-direction logic ────────────────────────────────────────────────────
@@ -625,7 +636,7 @@ Examples:
 
     if args.export_file and results:
         now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        path = f"{args.product}-istoric-stoc-MAR-{now}.xlsx"
+        path = f"{args.product}-istoric-stoc-MAY-{now}.xlsx"
         export_path = os.path.join(BASE_EXPORT_DIR, path)
         os.makedirs(BASE_EXPORT_DIR, exist_ok=True)
         path = export_to_excel(results, args.product, from_date_str, export_path)
